@@ -1,0 +1,4212 @@
+{
+  "Jobset": {
+    "ApplicationVersion": "2.6.1.1",
+    "Capability": 1,
+    "GlobalExpressions": null,
+    "Hardware": 11,
+    "JobActive": 1,
+    "Jobs": [
+      {
+        "Acquisition": {
+          "ArrangementFilterActive": false,
+          "ArrangementFilterType": "Rotation180_sp",
+          "FocusValue": 219.6,
+          "Gain": 1.0,
+          "HighDynamicRange": 0,
+          "IlluminationExternal": 0,
+          "IlluminationInternal": 1,
+          "LedQuadrant": 15,
+          "Shutter": 0.01,
+          "TargetLaser": "Off",
+          "TriggerDelay": 0,
+          "TriggerLockTime": 0,
+          "TriggerMode": "Triggered",
+          "WhitebalanceActive": false,
+          "WhitebalanceBlue": 100.0,
+          "WhitebalanceGreen": 100.0,
+          "WhitebalanceRed": 100.0
+        },
+        "Archiving": {
+          "BaseFileName": "",
+          "DomainName": "",
+          "FileNumMax": 11,
+          "FolderNameFail": "",
+          "FolderNamePass": "",
+          "ImageCompressionType": "JPEG60",
+          "Password": "",
+          "ResultImageFile": "All",
+          "ResultNumericFile": "All",
+          "ServerIpAddress": "0.0.0.0",
+          "SharedFolderName": "",
+          "StorageMode": "Unlimited",
+          "TransferProtocolType": "Off",
+          "UserName": ""
+        },
+        "CycleTimeRepeat": {
+          "CycleTimeMax": 3000,
+          "ProcessingTimePerImageMax": 0,
+          "RepeatImagesNumMax": 1,
+          "ShutterFactors": [
+            1.0
+          ],
+          "ShutterVariationActive": false
+        },
+        "Detectors": [
+          {
+            "AlignmentActive": false,
+            "ChannelColorList": [
+              true,
+              true,
+              true,
+              false
+            ],
+            "ChannelSingle": "Unspecified",
+            "Color": "RGB",
+            "ColorDistance": 0.0,
+            "ColorDistanceActive": false,
+            "ColorList": [
+              {
+                "ColorName": "Color 0",
+                "ColorValues": [
+                  0.0,
+                  0.0,
+                  0.0,
+                  0.0
+                ]
+              },
+              {
+                "ColorName": "Color 1",
+                "ColorValues": [
+                  0.0,
+                  0.0,
+                  0.0,
+                  0.0
+                ]
+              }
+            ],
+            "DetectorType": "ColorList",
+            "Name": "VERSION",
+            "RepeatRunNum": 0,
+            "Rois": [
+              {
+                "CenterX": 690.176,
+                "CenterY": 37.1756,
+                "LockedState": false,
+                "Purpose": "Search",
+                "Shape": "Circle",
+                "radius": 14.270298
+              }
+            ],
+            "ThresholdInvert": false,
+            "ThresholdMax": 100.0,
+            "ThresholdMin": 50.0,
+            "TrafoAlgDtcTeach_DeltaAngle": 0.0,
+            "TrafoAlgDtcTeach_DeltaCol": 0.0,
+            "TrafoAlgDtcTeach_DeltaRow": 0.0
+          }
+        ],
+        "DigitalOutputs": {
+          "ExpressionList": [
+            {
+              "InfixExpression": "D1",
+              "OutputIndex": 0,
+              "OutputType": "GenericOut"
+            }
+          ],
+          "StandardMode": true
+        },
+        "FocusDetector": {
+          "AlignmentActive": true,
+          "ChannelSingle": "RGB_Gray",
+          "Color": "Single",
+          "DetectorType": "Focus",
+          "Name": "",
+          "RepeatRunNum": 0,
+          "Rois": [
+            {
+              "Angle": 0.0,
+              "CenterX": 400.0,
+              "CenterY": 300.0,
+              "HalfHeight": 100.0,
+              "HalfWidth": 200.0,
+              "LockedState": false,
+              "Purpose": "Search",
+              "Shape": "Rectangle"
+            }
+          ],
+          "ThresholdInvert": false,
+          "ThresholdMax": 100.0,
+          "ThresholdMin": 50.0,
+          "TrafoAlgDtcTeach_DeltaAngle": 0.0,
+          "TrafoAlgDtcTeach_DeltaCol": 0.0,
+          "TrafoAlgDtcTeach_DeltaRow": 0.0
+        },
+        "General": {
+          "Author": "Author",
+          "Description": "Job",
+          "JobCreated": "2017-09-14T09:29:06",
+          "JobModified": "2025-03-14T12:51:30",
+          "Name": "VERSION"
+        },
+        "ImageTransmission": {
+          "RamDiskMode": "AllImages",
+          "RecorderMode": "Off"
+        },
+        "Multishot": {
+          "Active": false,
+          "ChannelType": "height",
+          "CurvatureRange": 0,
+          "CurvatureRangeActive": true,
+          "HeightRangeAuto": 1,
+          "HeightRangeMax": 0,
+          "HeightRangeMin": 0,
+          "LocalMean": 0,
+          "LocalMeanActive": true,
+          "OffsetX": 0.0,
+          "Slant": 30
+        },
+        "PreprocessingFilter": {
+          "FilterActive": false,
+          "FilterList": [
+            {
+              "Height": 0,
+              "Type": "Gaussian",
+              "Width": 0
+            },
+            {
+              "Height": 0,
+              "Type": "Erosion",
+              "Width": 0
+            },
+            {
+              "Height": 0,
+              "Type": "Dilation",
+              "Width": 0
+            },
+            {
+              "Height": 0,
+              "Type": "Mean",
+              "Width": 0
+            },
+            {
+              "Height": 0,
+              "Type": "MedianSeparate",
+              "Width": 0
+            }
+          ]
+        },
+        "Resolution": {
+          "Height": 600,
+          "Name": "",
+          "OffsetCol": 4,
+          "OffsetRow": 4,
+          "Scaling": 1,
+          "Width": 800
+        },
+        "Telegram": {
+          "Checksum": false,
+          "DataLength": false,
+          "DetectorResults": false,
+          "DigitalOutputs": false,
+          "EndOfTelegram": "",
+          "JobActive": false,
+          "LogicalOutputs": false,
+          "PayloadList": null,
+          "SelectedFields": false,
+          "Separator": "",
+          "Starter": "4a5330352e",
+          "Status": false,
+          "TotalExecutionTime": false,
+          "Trailer": "7a6f6f6d2d3232"
+        },
+        "TimingDigitalOutput": {
+          "ResultDelay": 0,
+          "ResultValidDuration": 0
+        }
+      },
+      {
+        "Acquisition": {
+          "ArrangementFilterActive": false,
+          "ArrangementFilterType": "Rotation180_sp",
+          "FocusValue": 219.64171,
+          "Gain": 1.3,
+          "HighDynamicRange": 0,
+          "IlluminationExternal": 0,
+          "IlluminationInternal": 1,
+          "LedQuadrant": 15,
+          "Shutter": 0.4,
+          "TargetLaser": "Off",
+          "TriggerDelay": 20,
+          "TriggerLockTime": 0,
+          "TriggerMode": "Triggered",
+          "WhitebalanceActive": true,
+          "WhitebalanceBlue": 36.0,
+          "WhitebalanceGreen": 62.0,
+          "WhitebalanceRed": 53.0
+        },
+        "Archiving": {
+          "BaseFileName": "",
+          "DomainName": "",
+          "FileNumMax": 10,
+          "FolderNameFail": "",
+          "FolderNamePass": "",
+          "ImageCompressionType": "JPEG60",
+          "Password": "",
+          "ResultImageFile": "All",
+          "ResultNumericFile": "All",
+          "ServerIpAddress": "0.0.0.0",
+          "SharedFolderName": "",
+          "StorageMode": "Unlimited",
+          "TransferProtocolType": "Off",
+          "UserName": ""
+        },
+        "CycleTimeRepeat": {
+          "CycleTimeMax": 200,
+          "ProcessingTimePerImageMax": 0,
+          "RepeatImagesNumMax": 1,
+          "ShutterFactors": [
+            1.0
+          ],
+          "ShutterVariationActive": false
+        },
+        "Detectors": [
+          {
+            "AlignmentActive": true,
+            "ChannelSingle": "RGB_Gray",
+            "Color": "Single",
+            "DetectorType": "Brightness",
+            "Name": "IMAGE",
+            "RepeatRunNum": 0,
+            "Rois": [
+              {
+                "Angle": 0.0,
+                "CenterX": 760.59784,
+                "CenterY": 291.8478,
+                "HalfHeight": 122.28261,
+                "HalfWidth": 23.641308,
+                "LockedState": false,
+                "Purpose": "Search",
+                "Shape": "Rectangle"
+              }
+            ],
+            "ThresholdInvert": false,
+            "ThresholdMax": 100.0,
+            "ThresholdMin": 50.0,
+            "TrafoAlgDtcTeach_DeltaAngle": 0.0,
+            "TrafoAlgDtcTeach_DeltaCol": 0.0,
+            "TrafoAlgDtcTeach_DeltaRow": 0.0
+          }
+        ],
+        "DigitalOutputs": {
+          "ExpressionList": [
+            {
+              "InfixExpression": "D1",
+              "OutputIndex": 0,
+              "OutputType": "GenericOut"
+            }
+          ],
+          "StandardMode": true
+        },
+        "FocusDetector": {
+          "AlignmentActive": true,
+          "ChannelSingle": "RGB_Gray",
+          "Color": "Single",
+          "DetectorType": "Focus",
+          "Name": "",
+          "RepeatRunNum": 0,
+          "Rois": [
+            {
+              "Angle": 0.0,
+              "CenterX": 331.61765,
+              "CenterY": 246.32353,
+              "HalfHeight": 33.088234,
+              "HalfWidth": 61.02941,
+              "LockedState": false,
+              "Purpose": "Search",
+              "Shape": "Rectangle"
+            }
+          ],
+          "ThresholdInvert": false,
+          "ThresholdMax": 100.0,
+          "ThresholdMin": 50.0,
+          "TrafoAlgDtcTeach_DeltaAngle": 0.0,
+          "TrafoAlgDtcTeach_DeltaCol": 0.0,
+          "TrafoAlgDtcTeach_DeltaRow": 0.0
+        },
+        "General": {
+          "Author": "Author",
+          "Description": "Job",
+          "JobCreated": "2017-05-17T17:49:17",
+          "JobModified": "2024-12-17T16:19:05",
+          "Name": "IMAGE"
+        },
+        "ImageTransmission": {
+          "RamDiskMode": "AllImages",
+          "RecorderMode": "Off"
+        },
+        "Multishot": {
+          "Active": false,
+          "ChannelType": "height",
+          "CurvatureRange": 0,
+          "CurvatureRangeActive": true,
+          "HeightRangeAuto": 1,
+          "HeightRangeMax": 0,
+          "HeightRangeMin": 0,
+          "LocalMean": 0,
+          "LocalMeanActive": true,
+          "OffsetX": 0.0,
+          "Slant": 30
+        },
+        "PreprocessingFilter": {
+          "FilterActive": false,
+          "FilterList": [
+            {
+              "Height": 0,
+              "Type": "Gaussian",
+              "Width": 0
+            },
+            {
+              "Height": 0,
+              "Type": "Erosion",
+              "Width": 0
+            },
+            {
+              "Height": 0,
+              "Type": "Dilation",
+              "Width": 0
+            },
+            {
+              "Height": 0,
+              "Type": "Mean",
+              "Width": 0
+            },
+            {
+              "Height": 0,
+              "Type": "MedianSeparate",
+              "Width": 0
+            }
+          ]
+        },
+        "Resolution": {
+          "Height": 600,
+          "Name": "",
+          "OffsetCol": 4,
+          "OffsetRow": 4,
+          "Scaling": 1,
+          "Width": 800
+        },
+        "Telegram": {
+          "Checksum": false,
+          "DataLength": false,
+          "DetectorResults": false,
+          "DigitalOutputs": false,
+          "EndOfTelegram": "3b",
+          "JobActive": false,
+          "LogicalOutputs": false,
+          "PayloadList": [
+            {
+              "Active": true,
+              "Bitdepth": 32,
+              "Detector": 1,
+              "Factor": 1000.0,
+              "MaxResults": -1,
+              "MinLength": 1,
+              "StringItemValue": "",
+              "Type": "DETECTOR",
+              "Value": 1
+            }
+          ],
+          "SelectedFields": false,
+          "Separator": "3b",
+          "Starter": "494d3a",
+          "Status": false,
+          "TotalExecutionTime": false,
+          "Trailer": "3b"
+        },
+        "TimingDigitalOutput": {
+          "ResultDelay": 0,
+          "ResultValidDuration": 0
+        }
+      },
+      {
+        "Acquisition": {
+          "ArrangementFilterActive": false,
+          "ArrangementFilterType": "Rotation180_sp",
+          "FocusValue": 219.64171,
+          "Gain": 1.0,
+          "HighDynamicRange": 0,
+          "IlluminationExternal": 2,
+          "IlluminationExternalPins": [
+            "IO9_RD"
+          ],
+          "IlluminationInternal": 0,
+          "LedQuadrant": 0,
+          "Shutter": 0.14,
+          "TargetLaser": "Off",
+          "TriggerDelay": 50,
+          "TriggerLockTime": 0,
+          "TriggerMode": "Triggered",
+          "WhitebalanceActive": true,
+          "WhitebalanceBlue": 36.0,
+          "WhitebalanceGreen": 62.0,
+          "WhitebalanceRed": 53.0
+        },
+        "Alignment": {
+          "ChannelSingle": "RGB _Binarization",
+          "ClippingFactor": 2.0,
+          "Color": "Single",
+          "ColorFilter": {
+            "Binarization": {
+              "Invert": [
+                0,
+                0,
+                0,
+                0
+              ],
+              "Max": [
+                110.0,
+                110.0,
+                110.0,
+                0.0
+              ],
+              "Min": [
+                0.0,
+                0.0,
+                0.0,
+                0.0
+              ]
+            },
+            "Distance": {
+              "Invert": true,
+              "Max": 255.0,
+              "Normalized": false,
+              "Reference": [
+                100.0,
+                100.0,
+                100.0,
+                0.0
+              ]
+            },
+            "UserDefined": {
+              "UserWeight": [
+                1.0,
+                1.0,
+                1.0,
+                0.0
+              ]
+            }
+          },
+          "DetectorType": "Edge",
+          "Interpolation": false,
+          "NumIterations": 5,
+          "OffsetMode": "none",
+          "Probe": "three",
+          "ProbeAlignment": "shift_and_rotation",
+          "ProbeList": [
+            {
+              "Aggregate": "median",
+              "Bidirectional": true,
+              "EdgeSelect": "first",
+              "EdgeStrengthMin": 8.0,
+              "Sigma": 3.0,
+              "StripesNum": 3,
+              "Transition": "negative"
+            },
+            {
+              "Aggregate": "median",
+              "Bidirectional": true,
+              "EdgeSelect": "first",
+              "EdgeStrengthMin": 8.0,
+              "Sigma": 3.0,
+              "StripesNum": 3,
+              "Transition": "negative"
+            },
+            {
+              "Aggregate": "last",
+              "Bidirectional": false,
+              "EdgeSelect": "first",
+              "EdgeStrengthMin": 11.0,
+              "Sigma": 3.0,
+              "StripesNum": 10,
+              "Transition": "negative"
+            }
+          ],
+          "Rois": [
+            {
+              "Angle": 89.52997,
+              "CenterX": 24.11141,
+              "CenterY": 329.4769,
+              "HalfHeight": 15.636004,
+              "HalfWidth": 139.12477,
+              "LockedState": false,
+              "Purpose": "Search",
+              "Shape": "Rectangle"
+            },
+            {
+              "Angle": 89.656906,
+              "CenterX": 454.6256,
+              "CenterY": 328.3403,
+              "HalfHeight": 144.33044,
+              "HalfWidth": 95.6006,
+              "LockedState": false,
+              "Purpose": "Search",
+              "Shape": "Rectangle"
+            },
+            {
+              "Angle": -179.93416,
+              "CenterX": 445.60538,
+              "CenterY": 378.2969,
+              "HalfHeight": 26.374336,
+              "HalfWidth": 197.82643,
+              "LockedState": false,
+              "Purpose": "Search",
+              "Shape": "Rectangle"
+            }
+          ],
+          "TeachValid": true,
+          "ThresholdInvert": false,
+          "ThresholdMax": 100.0,
+          "ThresholdMin": 0.0,
+          "TrafoAlgDtcTeach_DeltaAngle": 89.95171,
+          "TrafoAlgDtcTeach_DeltaCol": 239.32587,
+          "TrafoAlgDtcTeach_DeltaRow": 335.53232,
+          "TrafoAlgLast_DeltaAngle": 90.80799,
+          "TrafoAlgLast_DeltaCol": 287.84268,
+          "TrafoAlgLast_DeltaRow": 325.53452,
+          "TrafoAlgTeach_DeltaAngle": 89.95171,
+          "TrafoAlgTeach_DeltaCol": 283.57828,
+          "TrafoAlgTeach_DeltaRow": 335.5696
+        },
+        "Archiving": {
+          "BaseFileName": "<COUNTER>",
+          "DomainName": "",
+          "FileNumMax": 10,
+          "FolderNameFail": "",
+          "FolderNamePass": "",
+          "ImageCompressionType": "JPEG60",
+          "Password": "",
+          "ResultImageFile": "All",
+          "ResultNumericFile": "All",
+          "ServerIpAddress": "0.0.0.0",
+          "SharedFolderName": "",
+          "StorageMode": "Cyclic",
+          "TransferProtocolType": "Off",
+          "UserName": ""
+        },
+        "Calibration": {
+          "ImageX": [
+            482.73444,
+            17.67559
+          ],
+          "ImageY": [
+            332.19098,
+            332.6372
+          ],
+          "PlatePointsArea": 0.0,
+          "ScalingFactor": 0.00016126984,
+          "TiltsRotationsError": 0,
+          "Type": "Scaling",
+          "Unit": "mm",
+          "Valid": true,
+          "WorldX": [
+            0.0,
+            75.0
+          ],
+          "WorldY": [
+            0.0,
+            0.0
+          ]
+        },
+        "CycleTimeRepeat": {
+          "CycleTimeMax": 220,
+          "ProcessingTimePerImageMax": 0,
+          "RepeatImagesNumMax": 1,
+          "ShutterFactors": [
+            1.0
+          ],
+          "ShutterVariationActive": false
+        },
+        "Detectors": [
+          {
+            "AlignmentActive": true,
+            "ChannelSingle": "RGB _Binarization",
+            "Color": "Single",
+            "ColorFilter": {
+              "Binarization": {
+                "Invert": [
+                  0,
+                  0,
+                  0,
+                  0
+                ],
+                "Max": [
+                  100.0,
+                  100.0,
+                  100.0,
+                  0.0
+                ],
+                "Min": [
+                  0.0,
+                  0.0,
+                  0.0,
+                  0.0
+                ]
+              },
+              "Distance": {
+                "Invert": true,
+                "Max": 255.0,
+                "Normalized": false,
+                "Reference": [
+                  100.0,
+                  100.0,
+                  100.0,
+                  0.0
+                ]
+              },
+              "UserDefined": {
+                "UserWeight": [
+                  1.0,
+                  1.0,
+                  1.0,
+                  0.0
+                ]
+              }
+            },
+            "DetectorType": "Caliper",
+            "DistanceInvert": false,
+            "DistanceMax": 105.36,
+            "DistanceMin": -878.69,
+            "DistanceMode": "median",
+            "Interpolation": false,
+            "Name": "WIDTH",
+            "ProbeList": [
+              {
+                "EdgeStrength": 7.0,
+                "SearchStripes": 20,
+                "Smoothing": 2.0,
+                "Transition": "negative"
+              },
+              {
+                "EdgeStrength": 7.0,
+                "SearchStripes": 20,
+                "Smoothing": 2.0,
+                "Transition": "negative"
+              }
+            ],
+            "ProbeType": "one_roi_width",
+            "RepeatRunNum": 0,
+            "Rois": [
+              {
+                "Angle": -180.41476,
+                "CenterX": -1.3029058,
+                "CenterY": 87.30235,
+                "HalfHeight": 110.523445,
+                "HalfWidth": 120.90957,
+                "LockedState": false,
+                "Purpose": "Search",
+                "Shape": "Rectangle"
+              },
+              {
+                "Angle": -90.3949,
+                "CenterX": -115.86562,
+                "CenterY": -641.51166,
+                "HalfHeight": 39.99999,
+                "HalfWidth": 92.0,
+                "LockedState": false,
+                "Purpose": "Search",
+                "Shape": "Rectangle"
+              }
+            ],
+            "ThresholdInvert": false,
+            "ThresholdMax": 100.0,
+            "ThresholdMin": 50.0,
+            "TrafoAlgDtcTeach_DeltaAngle": 89.341446,
+            "TrafoAlgDtcTeach_DeltaCol": 363.07828,
+            "TrafoAlgDtcTeach_DeltaRow": 380.10632
+          },
+          {
+            "AlignmentActive": true,
+            "ChannelSingle": "RGB _Binarization",
+            "Color": "Single",
+            "ColorFilter": {
+              "Binarization": {
+                "Invert": [
+                  0,
+                  0,
+                  0,
+                  0
+                ],
+                "Max": [
+                  100.0,
+                  100.0,
+                  100.0,
+                  0.0
+                ],
+                "Min": [
+                  0.0,
+                  0.0,
+                  0.0,
+                  0.0
+                ]
+              },
+              "Distance": {
+                "Invert": true,
+                "Max": 255.0,
+                "Normalized": false,
+                "Reference": [
+                  100.0,
+                  100.0,
+                  100.0,
+                  0.0
+                ]
+              },
+              "UserDefined": {
+                "UserWeight": [
+                  1.0,
+                  1.0,
+                  1.0,
+                  0.0
+                ]
+              }
+            },
+            "DetectorType": "Caliper",
+            "DistanceInvert": false,
+            "DistanceMax": 11.0,
+            "DistanceMin": 0.0,
+            "DistanceMode": "minimum",
+            "Interpolation": false,
+            "Name": "VALID_POS",
+            "ProbeList": [
+              {
+                "EdgeStrength": 7.0,
+                "SearchStripes": 2,
+                "Smoothing": 2.0,
+                "Transition": "negative"
+              },
+              {
+                "EdgeStrength": 7.0,
+                "SearchStripes": 2,
+                "Smoothing": 2.0,
+                "Transition": "negative"
+              }
+            ],
+            "ProbeType": "one_roi_distance",
+            "RepeatRunNum": 0,
+            "Rois": [
+              {
+                "Angle": -89.697716,
+                "CenterX": -5.802138,
+                "CenterY": 180.74356,
+                "HalfHeight": 100.0,
+                "HalfWidth": 200.0,
+                "LockedState": false,
+                "Purpose": "Search",
+                "Shape": "Rectangle"
+              },
+              {
+                "Angle": -89.79568,
+                "CenterX": -1.2695568,
+                "CenterY": -163.92146,
+                "HalfHeight": 11.005336,
+                "HalfWidth": 115.18321,
+                "LockedState": false,
+                "Purpose": "Search",
+                "Shape": "Rectangle"
+              }
+            ],
+            "ThresholdInvert": false,
+            "ThresholdMax": 100.0,
+            "ThresholdMin": 50.0,
+            "TrafoAlgDtcTeach_DeltaAngle": 0.0,
+            "TrafoAlgDtcTeach_DeltaCol": 0.0,
+            "TrafoAlgDtcTeach_DeltaRow": 0.0
+          },
+          {
+            "AlignmentActive": true,
+            "ChannelSingle": "RGB _Binarization",
+            "Color": "Single",
+            "ColorFilter": {
+              "Binarization": {
+                "Invert": [
+                  0,
+                  0,
+                  0,
+                  0
+                ],
+                "Max": [
+                  100.0,
+                  100.0,
+                  100.0,
+                  0.0
+                ],
+                "Min": [
+                  0.0,
+                  0.0,
+                  0.0,
+                  0.0
+                ]
+              },
+              "Distance": {
+                "Invert": true,
+                "Max": 255.0,
+                "Normalized": false,
+                "Reference": [
+                  100.0,
+                  100.0,
+                  100.0,
+                  0.0
+                ]
+              },
+              "UserDefined": {
+                "UserWeight": [
+                  1.0,
+                  1.0,
+                  1.0,
+                  0.0
+                ]
+              }
+            },
+            "DetectorType": "Caliper",
+            "DistanceInvert": false,
+            "DistanceMax": 10.34,
+            "DistanceMin": 0.0,
+            "DistanceMode": "minimum",
+            "Interpolation": false,
+            "Name": "PPT_CRASH_HEIGHT",
+            "ProbeList": [
+              {
+                "EdgeStrength": 8.0,
+                "SearchStripes": 3,
+                "Smoothing": 2.0,
+                "Transition": "negative"
+              },
+              {
+                "EdgeStrength": 8.0,
+                "SearchStripes": 3,
+                "Smoothing": 2.0,
+                "Transition": "negative"
+              }
+            ],
+            "ProbeType": "one_roi_distance",
+            "RepeatRunNum": 0,
+            "Rois": [
+              {
+                "Angle": -91.01793,
+                "CenterX": -100.14317,
+                "CenterY": -640.4758,
+                "HalfHeight": 39.999996,
+                "HalfWidth": 92.0,
+                "LockedState": false,
+                "Purpose": "Search",
+                "Shape": "Rectangle"
+              },
+              {
+                "Angle": -269.90625,
+                "CenterX": 0.9342836,
+                "CenterY": 221.26631,
+                "HalfHeight": 68.17776,
+                "HalfWidth": 255.63188,
+                "LockedState": false,
+                "Purpose": "Search",
+                "Shape": "Rectangle"
+              }
+            ],
+            "ThresholdInvert": false,
+            "ThresholdMax": 100.0,
+            "ThresholdMin": 50.0,
+            "TrafoAlgDtcTeach_DeltaAngle": 89.341446,
+            "TrafoAlgDtcTeach_DeltaCol": 363.07828,
+            "TrafoAlgDtcTeach_DeltaRow": 380.10632
+          },
+          {
+            "AlignmentActive": true,
+            "ChannelSingle": "RGB _Binarization",
+            "Color": "Single",
+            "ColorFilter": {
+              "Binarization": {
+                "Invert": [
+                  0,
+                  0,
+                  0,
+                  0
+                ],
+                "Max": [
+                  100.0,
+                  100.0,
+                  100.0,
+                  0.0
+                ],
+                "Min": [
+                  0.0,
+                  0.0,
+                  0.0,
+                  0.0
+                ]
+              },
+              "Distance": {
+                "Invert": true,
+                "Max": 255.0,
+                "Normalized": false,
+                "Reference": [
+                  100.0,
+                  100.0,
+                  100.0,
+                  0.0
+                ]
+              },
+              "UserDefined": {
+                "UserWeight": [
+                  1.0,
+                  1.0,
+                  1.0,
+                  0.0
+                ]
+              }
+            },
+            "DetectorType": "Caliper",
+            "DistanceInvert": false,
+            "DistanceMax": 417.01,
+            "DistanceMin": -878.69,
+            "DistanceMode": "maximum",
+            "Interpolation": false,
+            "Name": "HEIGTH",
+            "ProbeList": [
+              {
+                "EdgeStrength": 8.0,
+                "SearchStripes": 2,
+                "Smoothing": 2.0,
+                "Transition": "negative"
+              },
+              {
+                "EdgeStrength": 8.0,
+                "SearchStripes": 14,
+                "Smoothing": 3.0,
+                "Transition": "negative"
+              }
+            ],
+            "ProbeType": "two_roi_width",
+            "RepeatRunNum": 0,
+            "Rois": [
+              {
+                "Angle": -90.044556,
+                "CenterX": -1.5383363,
+                "CenterY": -173.18716,
+                "HalfHeight": 9.170173,
+                "HalfWidth": 106.570244,
+                "LockedState": false,
+                "Purpose": "Search",
+                "Shape": "Rectangle"
+              },
+              {
+                "Angle": -270.04456,
+                "CenterX": 32.343773,
+                "CenterY": 287.90262,
+                "HalfHeight": 3.61806,
+                "HalfWidth": 169.26718,
+                "LockedState": false,
+                "Purpose": "Search",
+                "Shape": "Rectangle"
+              }
+            ],
+            "ThresholdInvert": false,
+            "ThresholdMax": 100.0,
+            "ThresholdMin": 50.0,
+            "TrafoAlgDtcTeach_DeltaAngle": 89.341446,
+            "TrafoAlgDtcTeach_DeltaCol": 363.07828,
+            "TrafoAlgDtcTeach_DeltaRow": 380.10632
+          },
+          {
+            "AlignmentActive": true,
+            "ChannelSingle": "RGB _Binarization",
+            "Color": "Single",
+            "ColorFilter": {
+              "Binarization": {
+                "Invert": [
+                  0,
+                  0,
+                  0,
+                  0
+                ],
+                "Max": [
+                  100.0,
+                  100.0,
+                  100.0,
+                  0.0
+                ],
+                "Min": [
+                  0.0,
+                  0.0,
+                  0.0,
+                  0.0
+                ]
+              },
+              "Distance": {
+                "Invert": true,
+                "Max": 255.0,
+                "Normalized": false,
+                "Reference": [
+                  100.0,
+                  100.0,
+                  100.0,
+                  0.0
+                ]
+              },
+              "UserDefined": {
+                "UserWeight": [
+                  1.0,
+                  1.0,
+                  1.0,
+                  0.0
+                ]
+              }
+            },
+            "DetectorType": "Caliper",
+            "DistanceInvert": false,
+            "DistanceMax": 28.0,
+            "DistanceMin": 11.0,
+            "DistanceMode": "minimum",
+            "Interpolation": false,
+            "Name": "CAM_ERR_POS",
+            "ProbeList": [
+              {
+                "EdgeStrength": 7.0,
+                "SearchStripes": 1,
+                "Smoothing": 2.0,
+                "Transition": "negative"
+              },
+              {
+                "EdgeStrength": 7.0,
+                "SearchStripes": 1,
+                "Smoothing": 2.0,
+                "Transition": "negative"
+              }
+            ],
+            "ProbeType": "one_roi_distance",
+            "RepeatRunNum": 0,
+            "Rois": [
+              {
+                "Angle": -89.697716,
+                "CenterX": -5.802138,
+                "CenterY": 180.74356,
+                "HalfHeight": 100.0,
+                "HalfWidth": 200.0,
+                "LockedState": false,
+                "Purpose": "Search",
+                "Shape": "Rectangle"
+              },
+              {
+                "Angle": -89.772964,
+                "CenterX": -1.9924893,
+                "CenterY": -170.61023,
+                "HalfHeight": 11.004883,
+                "HalfWidth": 109.1562,
+                "LockedState": false,
+                "Purpose": "Search",
+                "Shape": "Rectangle"
+              }
+            ],
+            "ThresholdInvert": false,
+            "ThresholdMax": 100.0,
+            "ThresholdMin": 50.0,
+            "TrafoAlgDtcTeach_DeltaAngle": 0.0,
+            "TrafoAlgDtcTeach_DeltaCol": 0.0,
+            "TrafoAlgDtcTeach_DeltaRow": 0.0
+          },
+          {
+            "AlignmentActive": true,
+            "ChannelSingle": "RGB _Binarization",
+            "Color": "Single",
+            "ColorFilter": {
+              "Binarization": {
+                "Invert": [
+                  0,
+                  0,
+                  0,
+                  0
+                ],
+                "Max": [
+                  100.0,
+                  100.0,
+                  100.0,
+                  0.0
+                ],
+                "Min": [
+                  0.0,
+                  0.0,
+                  0.0,
+                  0.0
+                ]
+              },
+              "Distance": {
+                "Invert": true,
+                "Max": 255.0,
+                "Normalized": false,
+                "Reference": [
+                  100.0,
+                  100.0,
+                  100.0,
+                  0.0
+                ]
+              },
+              "UserDefined": {
+                "UserWeight": [
+                  1.0,
+                  1.0,
+                  1.0,
+                  0.0
+                ]
+              }
+            },
+            "DetectorType": "Caliper",
+            "DistanceInvert": false,
+            "DistanceMax": 47.0,
+            "DistanceMin": 12.1,
+            "DistanceMode": "minimum",
+            "Interpolation": false,
+            "Name": "PPT_CRASH_LOW",
+            "ProbeList": [
+              {
+                "EdgeStrength": 7.0,
+                "SearchStripes": 2,
+                "Smoothing": 2.0,
+                "Transition": "negative"
+              },
+              {
+                "EdgeStrength": 7.0,
+                "SearchStripes": 2,
+                "Smoothing": 2.0,
+                "Transition": "negative"
+              }
+            ],
+            "ProbeType": "one_roi_distance",
+            "RepeatRunNum": 0,
+            "Rois": [
+              {
+                "Angle": -89.697716,
+                "CenterX": -5.802138,
+                "CenterY": 180.74356,
+                "HalfHeight": 100.0,
+                "HalfWidth": 200.0,
+                "LockedState": false,
+                "Purpose": "Search",
+                "Shape": "Rectangle"
+              },
+              {
+                "Angle": -90.17354,
+                "CenterX": -1.6607822,
+                "CenterY": -170.58209,
+                "HalfHeight": 9.694938,
+                "HalfWidth": 109.184875,
+                "LockedState": false,
+                "Purpose": "Search",
+                "Shape": "Rectangle"
+              }
+            ],
+            "ThresholdInvert": false,
+            "ThresholdMax": 100.0,
+            "ThresholdMin": 50.0,
+            "TrafoAlgDtcTeach_DeltaAngle": 0.0,
+            "TrafoAlgDtcTeach_DeltaCol": 0.0,
+            "TrafoAlgDtcTeach_DeltaRow": 0.0
+          },
+          {
+            "AlignmentActive": false,
+            "ChannelColorList": [
+              true,
+              true,
+              false,
+              false
+            ],
+            "ChannelSingle": "Unspecified",
+            "Color": "RGB",
+            "DetectorType": "ResultProcessing",
+            "Name": "IS_TOO_HIGH",
+            "RepeatRunNum": 0,
+            "Rois": null,
+            "ThresholdInvert": false,
+            "ThresholdMax": 100.0,
+            "ThresholdMin": 50.0,
+            "TrafoAlgDtcTeach_DeltaAngle": 0.0,
+            "TrafoAlgDtcTeach_DeltaCol": 0.0,
+            "TrafoAlgDtcTeach_DeltaRow": 0.0,
+            "expressions": [
+              {
+                "expression": "D3|D6",
+                "name": "v1"
+              }
+            ],
+            "resultExpression": "v1"
+          }
+        ],
+        "DigitalOutputs": {
+          "ExpressionList": [
+            {
+              "InfixExpression": "A&D3&D4&D5&D6&D7",
+              "OutputIndex": 0,
+              "OutputType": "GenericOut"
+            }
+          ],
+          "StandardMode": true
+        },
+        "FocusDetector": {
+          "AlignmentActive": true,
+          "ChannelSingle": "RGB_Gray",
+          "Color": "Single",
+          "DetectorType": "Focus",
+          "Name": "",
+          "RepeatRunNum": 0,
+          "Rois": [
+            {
+              "Angle": 0.0,
+              "CenterX": 341.17645,
+              "CenterY": 245.35294,
+              "HalfHeight": 44.35294,
+              "HalfWidth": 75.0,
+              "LockedState": false,
+              "Purpose": "Search",
+              "Shape": "Rectangle"
+            }
+          ],
+          "ThresholdInvert": false,
+          "ThresholdMax": 100.0,
+          "ThresholdMin": 50.0,
+          "TrafoAlgDtcTeach_DeltaAngle": 0.0,
+          "TrafoAlgDtcTeach_DeltaCol": 0.0,
+          "TrafoAlgDtcTeach_DeltaRow": 0.0
+        },
+        "General": {
+          "Author": "Author",
+          "Description": "Job",
+          "JobCreated": "2022-09-05T11:46:01",
+          "JobModified": "2025-07-07T09:35:34",
+          "Name": "MEASURE"
+        },
+        "ImageTransmission": {
+          "RamDiskMode": "AllImages",
+          "RecorderMode": "Off"
+        },
+        "Multishot": {
+          "Active": false,
+          "ChannelType": "height",
+          "CurvatureRange": 0,
+          "CurvatureRangeActive": true,
+          "HeightRangeAuto": 1,
+          "HeightRangeMax": 0,
+          "HeightRangeMin": 0,
+          "LocalMean": 0,
+          "LocalMeanActive": true,
+          "OffsetX": 0.0,
+          "Slant": 30
+        },
+        "PreprocessingFilter": {
+          "FilterActive": true,
+          "FilterList": [
+            {
+              "Height": 5,
+              "Type": "Sobel",
+              "Width": 5
+            },
+            {
+              "Height": 2,
+              "Type": "Multiplication_sp",
+              "Width": 1
+            },
+            {
+              "Height": 0,
+              "Type": "Dilation",
+              "Width": 0
+            },
+            {
+              "Height": 0,
+              "Type": "Mean",
+              "Width": 0
+            },
+            {
+              "Height": 0,
+              "Type": "MedianSeparate",
+              "Width": 0
+            }
+          ]
+        },
+        "Resolution": {
+          "Height": 600,
+          "Name": "",
+          "OffsetCol": 4,
+          "OffsetRow": 4,
+          "Scaling": 1,
+          "Width": 800
+        },
+        "Telegram": {
+          "Checksum": false,
+          "DataLength": false,
+          "DetectorResults": false,
+          "DigitalOutputs": false,
+          "EndOfTelegram": "3b",
+          "JobActive": false,
+          "LogicalOutputs": false,
+          "PayloadList": [
+            {
+              "Active": true,
+              "Bitdepth": 32,
+              "Detector": 1,
+              "Factor": 1000.0,
+              "MaxResults": -1,
+              "MinLength": 1,
+              "StringItemValue": "",
+              "Type": "DETECTOR",
+              "Value": 1
+            },
+            {
+              "Active": true,
+              "Bitdepth": 32,
+              "Detector": 1,
+              "Factor": 1000.0,
+              "MaxResults": -1,
+              "MinLength": 1,
+              "StringItemValue": "",
+              "Type": "DETECTOR",
+              "Value": 3
+            },
+            {
+              "Active": true,
+              "Bitdepth": 32,
+              "Detector": 4,
+              "Factor": 1000.0,
+              "MaxResults": -1,
+              "MinLength": 0,
+              "StringItemValue": "",
+              "Type": "DETECTOR",
+              "Value": 1
+            },
+            {
+              "Active": true,
+              "Bitdepth": 32,
+              "Detector": 4,
+              "Factor": 1000.0,
+              "MaxResults": -1,
+              "MinLength": 0,
+              "StringItemValue": "",
+              "Type": "DETECTOR",
+              "Value": 3
+            },
+            {
+              "Active": true,
+              "Bitdepth": 8,
+              "Detector": 5,
+              "Factor": 1.0,
+              "MaxResults": -1,
+              "MinLength": 0,
+              "StringItemValue": "",
+              "Type": "DETECTOR",
+              "Value": 0
+            },
+            {
+              "Active": true,
+              "Bitdepth": 8,
+              "Detector": 7,
+              "Factor": 1.0,
+              "MaxResults": 0,
+              "MinLength": 0,
+              "StringItemValue": "",
+              "Type": "DETECTOR",
+              "Value": 0
+            }
+          ],
+          "SelectedFields": false,
+          "Separator": "3b",
+          "Starter": "4d3a",
+          "Status": false,
+          "TotalExecutionTime": false,
+          "Trailer": "3b"
+        },
+        "TimingDigitalOutput": {
+          "ResultDelay": 0,
+          "ResultValidDuration": 0
+        }
+      },
+      {
+        "Acquisition": {
+          "ArrangementFilterActive": false,
+          "ArrangementFilterType": "Rotation180_sp",
+          "FocusValue": 219.6,
+          "Gain": 1.0,
+          "HighDynamicRange": 0,
+          "IlluminationExternal": 2,
+          "IlluminationExternalPins": [
+            "IO9_RD"
+          ],
+          "IlluminationInternal": 0,
+          "LedQuadrant": 15,
+          "Shutter": 0.14,
+          "TargetLaser": "Off",
+          "TriggerDelay": 40,
+          "TriggerLockTime": 0,
+          "TriggerMode": "Triggered",
+          "WhitebalanceActive": true,
+          "WhitebalanceBlue": 36.0,
+          "WhitebalanceGreen": 62.0,
+          "WhitebalanceRed": 53.0
+        },
+        "Alignment": {
+          "ChannelSingle": "RGB _Binarization",
+          "ClippingFactor": 2.0,
+          "Color": "Single",
+          "ColorFilter": {
+            "Binarization": {
+              "Invert": [
+                0,
+                0,
+                0,
+                0
+              ],
+              "Max": [
+                100.0,
+                100.0,
+                100.0,
+                0.0
+              ],
+              "Min": [
+                0.0,
+                0.0,
+                0.0,
+                0.0
+              ]
+            },
+            "Distance": {
+              "Invert": true,
+              "Max": 255.0,
+              "Normalized": false,
+              "Reference": [
+                100.0,
+                100.0,
+                100.0,
+                0.0
+              ]
+            },
+            "UserDefined": {
+              "UserWeight": [
+                1.0,
+                1.0,
+                1.0,
+                0.0
+              ]
+            }
+          },
+          "DetectorType": "Edge",
+          "Interpolation": false,
+          "NumIterations": 5,
+          "OffsetMode": "none",
+          "Probe": "three",
+          "ProbeAlignment": "shift_and_rotation",
+          "ProbeList": [
+            {
+              "Aggregate": "median",
+              "Bidirectional": true,
+              "EdgeSelect": "first",
+              "EdgeStrengthMin": 15.0,
+              "Sigma": 3.0,
+              "StripesNum": 9,
+              "Transition": "negative"
+            },
+            {
+              "Aggregate": "median",
+              "Bidirectional": true,
+              "EdgeSelect": "first",
+              "EdgeStrengthMin": 15.0,
+              "Sigma": 3.0,
+              "StripesNum": 9,
+              "Transition": "negative"
+            },
+            {
+              "Aggregate": "first",
+              "Bidirectional": false,
+              "EdgeSelect": "first",
+              "EdgeStrengthMin": 5.0,
+              "Sigma": 2.0,
+              "StripesNum": 9,
+              "Transition": "negative"
+            }
+          ],
+          "Rois": [
+            {
+              "Angle": 89.696045,
+              "CenterX": 28.677832,
+              "CenterY": 329.48126,
+              "HalfHeight": 15.560976,
+              "HalfWidth": 139.14146,
+              "LockedState": false,
+              "Purpose": "Search",
+              "Shape": "Rectangle"
+            },
+            {
+              "Angle": 90.16139,
+              "CenterX": 489.242,
+              "CenterY": 322.60754,
+              "HalfHeight": 177.76842,
+              "HalfWidth": 85.243,
+              "LockedState": false,
+              "Purpose": "Search",
+              "Shape": "Rectangle"
+            },
+            {
+              "Angle": -178.98474,
+              "CenterX": 540.58716,
+              "CenterY": 326.79013,
+              "HalfHeight": 64.34569,
+              "HalfWidth": 174.00621,
+              "LockedState": false,
+              "Purpose": "Search",
+              "Shape": "Rectangle"
+            }
+          ],
+          "TeachValid": true,
+          "ThresholdInvert": false,
+          "ThresholdMax": 100.0,
+          "ThresholdMin": 0.0,
+          "TrafoAlgDtcTeach_DeltaAngle": 90.56379,
+          "TrafoAlgDtcTeach_DeltaCol": 258.9732,
+          "TrafoAlgDtcTeach_DeltaRow": 327.64883,
+          "TrafoAlgLast_DeltaAngle": 90.87426,
+          "TrafoAlgLast_DeltaCol": 486.23068,
+          "TrafoAlgLast_DeltaRow": 322.3568,
+          "TrafoAlgTeach_DeltaAngle": 90.56379,
+          "TrafoAlgTeach_DeltaCol": 474.67133,
+          "TrafoAlgTeach_DeltaRow": 325.5263
+        },
+        "Archiving": {
+          "BaseFileName": "<COUNTER>",
+          "DomainName": "",
+          "FileNumMax": 3,
+          "FolderNameFail": "",
+          "FolderNamePass": "",
+          "ImageCompressionType": "None",
+          "Password": "",
+          "ResultImageFile": "None",
+          "ResultNumericFile": "None",
+          "ServerIpAddress": "...",
+          "SharedFolderName": "",
+          "StorageMode": "Limited",
+          "TransferProtocolType": "Off",
+          "UserName": ""
+        },
+        "Calibration": {
+          "ImageX": [
+            482.99167,
+            17.960882
+          ],
+          "ImageY": [
+            331.84564,
+            332.6956
+          ],
+          "PlatePointsArea": 0.0,
+          "ScalingFactor": 0.00021503917,
+          "TiltsRotationsError": 0,
+          "Type": "Scaling",
+          "Unit": "mm",
+          "Valid": true,
+          "WorldX": [
+            0.0,
+            100.0
+          ],
+          "WorldY": [
+            0.0,
+            0.0
+          ]
+        },
+        "CycleTimeRepeat": {
+          "CycleTimeMax": 150,
+          "ProcessingTimePerImageMax": 0,
+          "RepeatImagesNumMax": 1,
+          "ShutterFactors": [
+            1.0
+          ],
+          "ShutterVariationActive": false
+        },
+        "Detectors": [
+          {
+            "AlignmentActive": true,
+            "ChannelSingle": "RGB _Binarization",
+            "Color": "Single",
+            "ColorFilter": {
+              "Binarization": {
+                "Invert": [
+                  0,
+                  0,
+                  0,
+                  0
+                ],
+                "Max": [
+                  100.0,
+                  100.0,
+                  100.0,
+                  0.0
+                ],
+                "Min": [
+                  0.0,
+                  0.0,
+                  0.0,
+                  0.0
+                ]
+              },
+              "Distance": {
+                "Invert": true,
+                "Max": 255.0,
+                "Normalized": false,
+                "Reference": [
+                  100.0,
+                  100.0,
+                  100.0,
+                  0.0
+                ]
+              },
+              "UserDefined": {
+                "UserWeight": [
+                  1.0,
+                  1.0,
+                  1.0,
+                  0.0
+                ]
+              }
+            },
+            "DetectorType": "Caliper",
+            "DistanceInvert": false,
+            "DistanceMax": 1000.0,
+            "DistanceMin": 0.0,
+            "DistanceMode": "minimum",
+            "Interpolation": true,
+            "Name": "TUBE_WIDTH",
+            "ProbeList": [
+              {
+                "EdgeStrength": 2.0,
+                "SearchStripes": 40,
+                "Smoothing": 1.0,
+                "Transition": "negative"
+              },
+              {
+                "EdgeStrength": 2.0,
+                "SearchStripes": 40,
+                "Smoothing": 1.0,
+                "Transition": "negative"
+              }
+            ],
+            "ProbeType": "one_roi_width",
+            "RepeatRunNum": 0,
+            "Rois": [
+              {
+                "Angle": 0.31410855,
+                "CenterX": 2.6395276,
+                "CenterY": -203.07536,
+                "HalfHeight": 183.86774,
+                "HalfWidth": 107.44445,
+                "LockedState": false,
+                "Purpose": "Search",
+                "Shape": "Rectangle"
+              },
+              {
+                "Angle": -89.90369,
+                "CenterX": -9.382244,
+                "CenterY": -664.4986,
+                "HalfHeight": 100.0,
+                "HalfWidth": 200.0,
+                "LockedState": false,
+                "Purpose": "Search",
+                "Shape": "Rectangle"
+              }
+            ],
+            "ThresholdInvert": false,
+            "ThresholdMax": 100.0,
+            "ThresholdMin": 50.0,
+            "TrafoAlgDtcTeach_DeltaAngle": 0.0,
+            "TrafoAlgDtcTeach_DeltaCol": 0.0,
+            "TrafoAlgDtcTeach_DeltaRow": 0.0
+          },
+          {
+            "AlignmentActive": true,
+            "ChannelSingle": "RGB _Binarization",
+            "Color": "Single",
+            "ColorFilter": {
+              "Binarization": {
+                "Invert": [
+                  0,
+                  0,
+                  0,
+                  0
+                ],
+                "Max": [
+                  100.0,
+                  100.0,
+                  100.0,
+                  0.0
+                ],
+                "Min": [
+                  0.0,
+                  0.0,
+                  0.0,
+                  0.0
+                ]
+              },
+              "Distance": {
+                "Invert": true,
+                "Max": 255.0,
+                "Normalized": false,
+                "Reference": [
+                  100.0,
+                  100.0,
+                  100.0,
+                  0.0
+                ]
+              },
+              "UserDefined": {
+                "UserWeight": [
+                  1.0,
+                  1.0,
+                  1.0,
+                  0.0
+                ]
+              }
+            },
+            "DetectorType": "Caliper",
+            "DistanceInvert": false,
+            "DistanceMax": 1000.0,
+            "DistanceMin": 0.0,
+            "DistanceMode": "minimum",
+            "Interpolation": true,
+            "Name": "CAP_WITH",
+            "ProbeList": [
+              {
+                "EdgeStrength": 8.0,
+                "SearchStripes": 5,
+                "Smoothing": 1.0,
+                "Transition": "negative"
+              },
+              {
+                "EdgeStrength": 8.0,
+                "SearchStripes": 5,
+                "Smoothing": 1.0,
+                "Transition": "negative"
+              }
+            ],
+            "ProbeType": "one_roi_width",
+            "RepeatRunNum": 0,
+            "Rois": [
+              {
+                "Angle": -0.6349881,
+                "CenterX": -4.7826753,
+                "CenterY": -31.00589,
+                "HalfHeight": 12.077372,
+                "HalfWidth": 97.387115,
+                "LockedState": false,
+                "Purpose": "Search",
+                "Shape": "Rectangle"
+              },
+              {
+                "Angle": -90.061905,
+                "CenterX": 10.558476,
+                "CenterY": -745.4259,
+                "HalfHeight": 100.0,
+                "HalfWidth": 200.0,
+                "LockedState": false,
+                "Purpose": "Search",
+                "Shape": "Rectangle"
+              }
+            ],
+            "ThresholdInvert": false,
+            "ThresholdMax": 100.0,
+            "ThresholdMin": 50.0,
+            "TrafoAlgDtcTeach_DeltaAngle": 0.0,
+            "TrafoAlgDtcTeach_DeltaCol": 0.0,
+            "TrafoAlgDtcTeach_DeltaRow": 0.0
+          },
+          {
+            "AlignmentActive": false,
+            "ChannelColorList": [
+              false,
+              false,
+              false,
+              false
+            ],
+            "ChannelSingle": "Unspecified",
+            "Color": "RGB",
+            "DetectorType": "ResultProcessing",
+            "Name": "CAP_DETECTOR",
+            "RepeatRunNum": 0,
+            "Rois": null,
+            "ThresholdInvert": false,
+            "ThresholdMax": 100.0,
+            "ThresholdMin": 50.0,
+            "TrafoAlgDtcTeach_DeltaAngle": 0.0,
+            "TrafoAlgDtcTeach_DeltaCol": 0.0,
+            "TrafoAlgDtcTeach_DeltaRow": 0.0,
+            "expressions": [
+              {
+                "expression": "(abs(D1.Distance-D2.Distance)>2.3)&(D2.Distance>0)",
+                "name": "v1"
+              },
+              {
+                "expression": "abs(D1.Distance-D2.Distance)",
+                "name": "v2"
+              }
+            ],
+            "resultExpression": "v1"
+          },
+          {
+            "AlignmentActive": true,
+            "ChannelSingle": "RGB_Gray",
+            "Color": "Single",
+            "DetectorType": "Caliper",
+            "DistanceInvert": false,
+            "DistanceMax": 167.54,
+            "DistanceMin": -500.0,
+            "DistanceMode": "maximum",
+            "Interpolation": true,
+            "Name": "VALID_CAP_DETECT",
+            "ProbeList": [
+              {
+                "EdgeStrength": 7.0,
+                "SearchStripes": 3,
+                "Smoothing": 3.0,
+                "Transition": "positive"
+              },
+              {
+                "EdgeStrength": 11.0,
+                "SearchStripes": 3,
+                "Smoothing": 3.0,
+                "Transition": "all"
+              }
+            ],
+            "ProbeType": "two_roi_distance",
+            "RepeatRunNum": 0,
+            "Rois": [
+              {
+                "Angle": -269.91107,
+                "CenterX": -1.3316097,
+                "CenterY": -212.05421,
+                "HalfHeight": 59.919033,
+                "HalfWidth": 176.57556,
+                "LockedState": false,
+                "Purpose": "Search",
+                "Shape": "Rectangle"
+              },
+              {
+                "Angle": -269.91107,
+                "CenterX": -5.8517942,
+                "CenterY": -14.765449,
+                "HalfHeight": 27.665512,
+                "HalfWidth": 21.220118,
+                "LockedState": false,
+                "Purpose": "Search",
+                "Shape": "Rectangle"
+              }
+            ],
+            "ThresholdInvert": false,
+            "ThresholdMax": 100.0,
+            "ThresholdMin": 50.0,
+            "TrafoAlgDtcTeach_DeltaAngle": 0.0,
+            "TrafoAlgDtcTeach_DeltaCol": 0.0,
+            "TrafoAlgDtcTeach_DeltaRow": 0.0
+          }
+        ],
+        "DigitalOutputs": {
+          "ExpressionList": [
+            {
+              "InfixExpression": "A&D1&D2&D3&D4",
+              "OutputIndex": 0,
+              "OutputType": "GenericOut"
+            }
+          ],
+          "StandardMode": true
+        },
+        "FocusDetector": {
+          "AlignmentActive": true,
+          "ChannelSingle": "RGB_Gray",
+          "Color": "Single",
+          "DetectorType": "Focus",
+          "Name": "",
+          "RepeatRunNum": 0,
+          "Rois": [
+            {
+              "Angle": 0.0,
+              "CenterX": 335.29413,
+              "CenterY": 243.88235,
+              "HalfHeight": 42.88235,
+              "HalfWidth": 69.117645,
+              "LockedState": false,
+              "Purpose": "Search",
+              "Shape": "Rectangle"
+            }
+          ],
+          "ThresholdInvert": false,
+          "ThresholdMax": 100.0,
+          "ThresholdMin": 50.0,
+          "TrafoAlgDtcTeach_DeltaAngle": 0.0,
+          "TrafoAlgDtcTeach_DeltaCol": 0.0,
+          "TrafoAlgDtcTeach_DeltaRow": 0.0
+        },
+        "General": {
+          "Author": "Author",
+          "Description": "Job",
+          "JobCreated": "2022-07-28T14:03:17",
+          "JobModified": "2025-07-07T09:33:39",
+          "Name": "CAP_WIDTH"
+        },
+        "ImageTransmission": {
+          "RamDiskMode": "AllImages",
+          "RecorderMode": "Off"
+        },
+        "Multishot": {
+          "Active": false,
+          "ChannelType": "height",
+          "CurvatureRange": 0,
+          "CurvatureRangeActive": true,
+          "HeightRangeAuto": 1,
+          "HeightRangeMax": 0,
+          "HeightRangeMin": 0,
+          "LocalMean": 0,
+          "LocalMeanActive": true,
+          "OffsetX": 0.0,
+          "Slant": 30
+        },
+        "PreprocessingFilter": {
+          "FilterActive": true,
+          "FilterList": [
+            {
+              "Height": 5,
+              "Type": "Sobel",
+              "Width": 5
+            },
+            {
+              "Height": 2,
+              "Type": "Multiplication_sp",
+              "Width": 1
+            },
+            {
+              "Height": 0,
+              "Type": "Dilation",
+              "Width": 0
+            },
+            {
+              "Height": 0,
+              "Type": "Mean",
+              "Width": 0
+            },
+            {
+              "Height": 0,
+              "Type": "MedianSeparate",
+              "Width": 0
+            }
+          ]
+        },
+        "Resolution": {
+          "Height": 600,
+          "Name": "",
+          "OffsetCol": 4,
+          "OffsetRow": 4,
+          "Scaling": 1,
+          "Width": 800
+        },
+        "Telegram": {
+          "Checksum": false,
+          "DataLength": false,
+          "DetectorResults": false,
+          "DigitalOutputs": false,
+          "EndOfTelegram": "3b",
+          "JobActive": false,
+          "LogicalOutputs": false,
+          "PayloadList": [
+            {
+              "Active": true,
+              "Bitdepth": 8,
+              "Detector": 3,
+              "Factor": 1.0,
+              "MaxResults": -1,
+              "MinLength": 0,
+              "StringItemValue": "",
+              "Type": "DETECTOR",
+              "Value": 0
+            },
+            {
+              "Active": true,
+              "Bitdepth": 8,
+              "Detector": 4,
+              "Factor": 1.0,
+              "MaxResults": -1,
+              "MinLength": 0,
+              "StringItemValue": "",
+              "Type": "DETECTOR",
+              "Value": 0
+            },
+            {
+              "Active": true,
+              "Bitdepth": 32,
+              "Detector": 2,
+              "Factor": 1000.0,
+              "MaxResults": -1,
+              "MinLength": 0,
+              "StringItemValue": "",
+              "Type": "DETECTOR",
+              "Value": 3
+            }
+          ],
+          "SelectedFields": false,
+          "Separator": "3b",
+          "Starter": "43573a",
+          "Status": false,
+          "TotalExecutionTime": false,
+          "Trailer": "3b"
+        },
+        "TimingDigitalOutput": {
+          "ResultDelay": 0,
+          "ResultValidDuration": 0
+        }
+      },
+      {
+        "Acquisition": {
+          "ArrangementFilterActive": false,
+          "ArrangementFilterType": "Rotation180_sp",
+          "FocusValue": 219.64171,
+          "Gain": 1.0,
+          "HighDynamicRange": 0,
+          "IlluminationExternal": 2,
+          "IlluminationExternalPins": [
+            "IO9_RD"
+          ],
+          "IlluminationInternal": 1,
+          "LedQuadrant": 15,
+          "Shutter": 0.1,
+          "TargetLaser": "Off",
+          "TriggerDelay": 40,
+          "TriggerLockTime": 0,
+          "TriggerMode": "Triggered",
+          "WhitebalanceActive": true,
+          "WhitebalanceBlue": 36.0,
+          "WhitebalanceGreen": 62.0,
+          "WhitebalanceRed": 53.0
+        },
+        "Alignment": {
+          "ChannelSingle": "RGB _Binarization",
+          "ClippingFactor": 2.0,
+          "Color": "Single",
+          "ColorFilter": {
+            "Binarization": {
+              "Invert": [
+                0,
+                0,
+                0,
+                0
+              ],
+              "Max": [
+                100.0,
+                100.0,
+                100.0,
+                0.0
+              ],
+              "Min": [
+                0.0,
+                0.0,
+                0.0,
+                0.0
+              ]
+            },
+            "Distance": {
+              "Invert": true,
+              "Max": 255.0,
+              "Normalized": false,
+              "Reference": [
+                100.0,
+                100.0,
+                100.0,
+                0.0
+              ]
+            },
+            "UserDefined": {
+              "UserWeight": [
+                1.0,
+                1.0,
+                1.0,
+                0.0
+              ]
+            }
+          },
+          "DetectorType": "Edge",
+          "Interpolation": false,
+          "NumIterations": 5,
+          "OffsetMode": "none",
+          "Probe": "three",
+          "ProbeAlignment": "shift_and_rotation",
+          "ProbeList": [
+            {
+              "Aggregate": "last",
+              "Bidirectional": true,
+              "EdgeSelect": "first",
+              "EdgeStrengthMin": 10.0,
+              "Sigma": 3.0,
+              "StripesNum": 3,
+              "Transition": "negative"
+            },
+            {
+              "Aggregate": "last",
+              "Bidirectional": true,
+              "EdgeSelect": "first",
+              "EdgeStrengthMin": 10.0,
+              "Sigma": 3.0,
+              "StripesNum": 3,
+              "Transition": "negative"
+            },
+            {
+              "Aggregate": "first",
+              "Bidirectional": true,
+              "EdgeSelect": "first",
+              "EdgeStrengthMin": 1.0,
+              "Sigma": 3.0,
+              "StripesNum": 2,
+              "Transition": "negative"
+            }
+          ],
+          "Rois": [
+            {
+              "Angle": 89.99999,
+              "CenterX": 359.657,
+              "CenterY": 318.84058,
+              "HalfHeight": 24.42979,
+              "HalfWidth": 99.710144,
+              "LockedState": false,
+              "Purpose": "Search",
+              "Shape": "Rectangle"
+            },
+            {
+              "Angle": 89.5835,
+              "CenterX": 23.509346,
+              "CenterY": 328.96347,
+              "HalfHeight": 14.092681,
+              "HalfWidth": 138.62454,
+              "LockedState": false,
+              "Purpose": "Search",
+              "Shape": "Rectangle"
+            },
+            {
+              "Angle": -179.61948,
+              "CenterX": 391.97012,
+              "CenterY": 325.59357,
+              "HalfHeight": 14.233287,
+              "HalfWidth": 382.43042,
+              "LockedState": false,
+              "Purpose": "Search",
+              "Shape": "Rectangle"
+            }
+          ],
+          "TeachValid": true,
+          "ThresholdInvert": false,
+          "ThresholdMax": 100.0,
+          "ThresholdMin": 0.0,
+          "TrafoAlgDtcTeach_DeltaAngle": 90.94226,
+          "TrafoAlgDtcTeach_DeltaCol": 191.60002,
+          "TrafoAlgDtcTeach_DeltaRow": 324.64658,
+          "TrafoAlgLast_DeltaAngle": 90.78294,
+          "TrafoAlgLast_DeltaCol": 252.36852,
+          "TrafoAlgLast_DeltaRow": 325.63925,
+          "TrafoAlgTeach_DeltaAngle": 90.94226,
+          "TrafoAlgTeach_DeltaCol": 330.716,
+          "TrafoAlgTeach_DeltaRow": 322.35852
+        },
+        "Archiving": {
+          "BaseFileName": "<COUNTER>",
+          "DomainName": "",
+          "FileNumMax": 10,
+          "FolderNameFail": "",
+          "FolderNamePass": "",
+          "ImageCompressionType": "None",
+          "Password": "",
+          "ResultImageFile": "All",
+          "ResultNumericFile": "All",
+          "ServerIpAddress": "...",
+          "SharedFolderName": "",
+          "StorageMode": "Cyclic",
+          "TransferProtocolType": "Off",
+          "UserName": ""
+        },
+        "CycleTimeRepeat": {
+          "CycleTimeMax": 120,
+          "ProcessingTimePerImageMax": 0,
+          "RepeatImagesNumMax": 1,
+          "ShutterFactors": [
+            1.0
+          ],
+          "ShutterVariationActive": false
+        },
+        "Detectors": [
+          {
+            "AlignmentActive": true,
+            "ChannelSingle": "RGB _Binarization",
+            "Color": "Single",
+            "ColorFilter": {
+              "Binarization": {
+                "Invert": [
+                  0,
+                  0,
+                  0,
+                  0
+                ],
+                "Max": [
+                  100.0,
+                  100.0,
+                  100.0,
+                  0.0
+                ],
+                "Min": [
+                  0.0,
+                  0.0,
+                  0.0,
+                  0.0
+                ]
+              },
+              "Distance": {
+                "Invert": true,
+                "Max": 255.0,
+                "Normalized": false,
+                "Reference": [
+                  100.0,
+                  100.0,
+                  100.0,
+                  0.0
+                ]
+              },
+              "UserDefined": {
+                "UserWeight": [
+                  1.0,
+                  1.0,
+                  1.0,
+                  0.0
+                ]
+              }
+            },
+            "DetectorType": "Caliper",
+            "DistanceInvert": false,
+            "DistanceMax": 1000.0,
+            "DistanceMin": 26.54,
+            "DistanceMode": "median",
+            "Interpolation": true,
+            "Name": "TALL CAP DETECT",
+            "ProbeList": [
+              {
+                "EdgeStrength": 8.0,
+                "SearchStripes": 27,
+                "Smoothing": 3.0,
+                "Transition": "negative"
+              },
+              {
+                "EdgeStrength": 4.0,
+                "SearchStripes": 30,
+                "Smoothing": 0.0,
+                "Transition": "negative"
+              }
+            ],
+            "ProbeType": "two_roi_distance",
+            "RepeatRunNum": 0,
+            "Rois": [
+              {
+                "Angle": -269.50452,
+                "CenterX": -3.8298504,
+                "CenterY": 359.7692,
+                "HalfHeight": 19.060781,
+                "HalfWidth": 45.813976,
+                "LockedState": false,
+                "Purpose": "Search",
+                "Shape": "Rectangle"
+              },
+              {
+                "Angle": -269.50452,
+                "CenterX": -2.0282006,
+                "CenterY": 241.32121,
+                "HalfHeight": 54.54622,
+                "HalfWidth": 71.32531,
+                "LockedState": false,
+                "Purpose": "Search",
+                "Shape": "Rectangle"
+              }
+            ],
+            "ThresholdInvert": false,
+            "ThresholdMax": 100.0,
+            "ThresholdMin": 50.0,
+            "TrafoAlgDtcTeach_DeltaAngle": 89.12271,
+            "TrafoAlgDtcTeach_DeltaCol": 367.05582,
+            "TrafoAlgDtcTeach_DeltaRow": 388.7329
+          }
+        ],
+        "DigitalOutputs": {
+          "ExpressionList": [
+            {
+              "InfixExpression": "A&D1",
+              "OutputIndex": 0,
+              "OutputType": "GenericOut"
+            }
+          ],
+          "StandardMode": true
+        },
+        "FocusDetector": {
+          "AlignmentActive": true,
+          "ChannelSingle": "RGB_Gray",
+          "Color": "Single",
+          "DetectorType": "Focus",
+          "Name": "",
+          "RepeatRunNum": 0,
+          "Rois": [
+            {
+              "Angle": 0.0,
+              "CenterX": 346.32352,
+              "CenterY": 239.47058,
+              "HalfHeight": 38.470585,
+              "HalfWidth": 77.20588,
+              "LockedState": false,
+              "Purpose": "Search",
+              "Shape": "Rectangle"
+            }
+          ],
+          "ThresholdInvert": false,
+          "ThresholdMax": 100.0,
+          "ThresholdMin": 50.0,
+          "TrafoAlgDtcTeach_DeltaAngle": 0.0,
+          "TrafoAlgDtcTeach_DeltaCol": 0.0,
+          "TrafoAlgDtcTeach_DeltaRow": 0.0
+        },
+        "General": {
+          "Author": "Author",
+          "Description": "Job",
+          "JobCreated": "2022-07-19T17:57:51",
+          "JobModified": "2025-07-07T09:38:13",
+          "Name": "TALL CAP ZONE"
+        },
+        "ImageTransmission": {
+          "RamDiskMode": "AllImages",
+          "RecorderMode": "Off"
+        },
+        "Multishot": {
+          "Active": false,
+          "ChannelType": "height",
+          "CurvatureRange": 0,
+          "CurvatureRangeActive": true,
+          "HeightRangeAuto": 1,
+          "HeightRangeMax": 0,
+          "HeightRangeMin": 0,
+          "LocalMean": 0,
+          "LocalMeanActive": true,
+          "OffsetX": 0.0,
+          "Slant": 30
+        },
+        "PreprocessingFilter": {
+          "FilterActive": true,
+          "FilterList": [
+            {
+              "Height": 5,
+              "Type": "Sobel",
+              "Width": 5
+            },
+            {
+              "Height": 2,
+              "Type": "Multiplication_sp",
+              "Width": 1
+            },
+            {
+              "Height": 0,
+              "Type": "Dilation",
+              "Width": 0
+            },
+            {
+              "Height": 0,
+              "Type": "Mean",
+              "Width": 0
+            },
+            {
+              "Height": 0,
+              "Type": "MedianSeparate",
+              "Width": 0
+            }
+          ]
+        },
+        "Resolution": {
+          "Height": 600,
+          "Name": "",
+          "OffsetCol": 4,
+          "OffsetRow": 4,
+          "Scaling": 1,
+          "Width": 800
+        },
+        "Telegram": {
+          "Checksum": false,
+          "DataLength": false,
+          "DetectorResults": false,
+          "DigitalOutputs": false,
+          "EndOfTelegram": "3b",
+          "JobActive": false,
+          "LogicalOutputs": false,
+          "PayloadList": [
+            {
+              "Active": true,
+              "Bitdepth": 8,
+              "Detector": 1,
+              "Factor": 1.0,
+              "MaxResults": -1,
+              "MinLength": 0,
+              "StringItemValue": "",
+              "Type": "DETECTOR",
+              "Value": 0
+            }
+          ],
+          "SelectedFields": false,
+          "Separator": "3b",
+          "Starter": "5a433a",
+          "Status": false,
+          "TotalExecutionTime": false,
+          "Trailer": "3b"
+        },
+        "TimingDigitalOutput": {
+          "ResultDelay": 0,
+          "ResultValidDuration": 0
+        }
+      },
+      {
+        "Acquisition": {
+          "ArrangementFilterActive": false,
+          "ArrangementFilterType": "Rotation180_sp",
+          "FocusValue": 219.64171,
+          "Gain": 1.0,
+          "HighDynamicRange": 0,
+          "IlluminationExternal": 2,
+          "IlluminationExternalPins": [
+            "IO9_RD"
+          ],
+          "IlluminationInternal": 1,
+          "LedQuadrant": 15,
+          "Shutter": 0.09,
+          "TargetLaser": "Off",
+          "TriggerDelay": 40,
+          "TriggerLockTime": 0,
+          "TriggerMode": "Triggered",
+          "WhitebalanceActive": true,
+          "WhitebalanceBlue": 36.0,
+          "WhitebalanceGreen": 62.0,
+          "WhitebalanceRed": 53.0
+        },
+        "Alignment": {
+          "ChannelSingle": "RGB _Binarization",
+          "ClippingFactor": 2.0,
+          "Color": "Single",
+          "ColorFilter": {
+            "Binarization": {
+              "Invert": [
+                0,
+                0,
+                0,
+                0
+              ],
+              "Max": [
+                100.0,
+                100.0,
+                100.0,
+                0.0
+              ],
+              "Min": [
+                0.0,
+                0.0,
+                0.0,
+                0.0
+              ]
+            },
+            "Distance": {
+              "Invert": true,
+              "Max": 255.0,
+              "Normalized": false,
+              "Reference": [
+                100.0,
+                100.0,
+                100.0,
+                0.0
+              ]
+            },
+            "UserDefined": {
+              "UserWeight": [
+                1.0,
+                1.0,
+                1.0,
+                0.0
+              ]
+            }
+          },
+          "DetectorType": "Edge",
+          "Interpolation": false,
+          "NumIterations": 5,
+          "OffsetMode": "none",
+          "Probe": "three",
+          "ProbeAlignment": "shift_and_rotation",
+          "ProbeList": [
+            {
+              "Aggregate": "last",
+              "Bidirectional": true,
+              "EdgeSelect": "first",
+              "EdgeStrengthMin": 11.0,
+              "Sigma": 3.0,
+              "StripesNum": 6,
+              "Transition": "negative"
+            },
+            {
+              "Aggregate": "last",
+              "Bidirectional": true,
+              "EdgeSelect": "first",
+              "EdgeStrengthMin": 11.0,
+              "Sigma": 3.0,
+              "StripesNum": 6,
+              "Transition": "negative"
+            },
+            {
+              "Aggregate": "first",
+              "Bidirectional": true,
+              "EdgeSelect": "first",
+              "EdgeStrengthMin": 5.0,
+              "Sigma": 3.0,
+              "StripesNum": 2,
+              "Transition": "negative"
+            }
+          ],
+          "Rois": [
+            {
+              "Angle": 89.99999,
+              "CenterX": 346.43216,
+              "CenterY": 318.20023,
+              "HalfHeight": 34.673367,
+              "HalfWidth": 78.01185,
+              "LockedState": false,
+              "Purpose": "Search",
+              "Shape": "Rectangle"
+            },
+            {
+              "Angle": 89.93533,
+              "CenterX": 24.590412,
+              "CenterY": 328.96002,
+              "HalfHeight": 14.097611,
+              "HalfWidth": 138.62119,
+              "LockedState": false,
+              "Purpose": "Search",
+              "Shape": "Rectangle"
+            },
+            {
+              "Angle": -179.71506,
+              "CenterX": 369.93903,
+              "CenterY": 338.99316,
+              "HalfHeight": 14.207668,
+              "HalfWidth": 355.9659,
+              "LockedState": false,
+              "Purpose": "Search",
+              "Shape": "Rectangle"
+            }
+          ],
+          "TeachValid": true,
+          "ThresholdInvert": false,
+          "ThresholdMax": 100.0,
+          "ThresholdMin": 0.0,
+          "TrafoAlgDtcTeach_DeltaAngle": 90.65364,
+          "TrafoAlgDtcTeach_DeltaCol": 185.49971,
+          "TrafoAlgDtcTeach_DeltaRow": 339.5031,
+          "TrafoAlgLast_DeltaAngle": 90.69585,
+          "TrafoAlgLast_DeltaCol": 252.35983,
+          "TrafoAlgLast_DeltaRow": 326.03772,
+          "TrafoAlgTeach_DeltaAngle": 90.65364,
+          "TrafoAlgTeach_DeltaCol": 243.23395,
+          "TrafoAlgTeach_DeltaRow": 338.84442
+        },
+        "Archiving": {
+          "BaseFileName": "<COUNTER>",
+          "DomainName": "",
+          "FileNumMax": 10,
+          "FolderNameFail": "",
+          "FolderNamePass": "",
+          "ImageCompressionType": "None",
+          "Password": "",
+          "ResultImageFile": "All",
+          "ResultNumericFile": "All",
+          "ServerIpAddress": "...",
+          "SharedFolderName": "",
+          "StorageMode": "Cyclic",
+          "TransferProtocolType": "Off",
+          "UserName": ""
+        },
+        "CycleTimeRepeat": {
+          "CycleTimeMax": 120,
+          "ProcessingTimePerImageMax": 0,
+          "RepeatImagesNumMax": 1,
+          "ShutterFactors": [
+            1.0
+          ],
+          "ShutterVariationActive": false
+        },
+        "Detectors": [
+          {
+            "AlignmentActive": true,
+            "ChannelSingle": "RGB _Binarization",
+            "Color": "Single",
+            "ColorFilter": {
+              "Binarization": {
+                "Invert": [
+                  0,
+                  0,
+                  0,
+                  0
+                ],
+                "Max": [
+                  100.0,
+                  100.0,
+                  100.0,
+                  0.0
+                ],
+                "Min": [
+                  0.0,
+                  0.0,
+                  0.0,
+                  0.0
+                ]
+              },
+              "Distance": {
+                "Invert": true,
+                "Max": 255.0,
+                "Normalized": false,
+                "Reference": [
+                  100.0,
+                  100.0,
+                  100.0,
+                  0.0
+                ]
+              },
+              "UserDefined": {
+                "UserWeight": [
+                  1.0,
+                  1.0,
+                  1.0,
+                  0.0
+                ]
+              }
+            },
+            "DetectorType": "Caliper",
+            "DistanceInvert": false,
+            "DistanceMax": 1000.0,
+            "DistanceMin": 23.54,
+            "DistanceMode": "median",
+            "Interpolation": true,
+            "Name": "SHORT CAP DETECT",
+            "ProbeList": [
+              {
+                "EdgeStrength": 8.0,
+                "SearchStripes": 27,
+                "Smoothing": 3.0,
+                "Transition": "negative"
+              },
+              {
+                "EdgeStrength": 3.0,
+                "SearchStripes": 30,
+                "Smoothing": 0.0,
+                "Transition": "negative"
+              }
+            ],
+            "ProbeType": "two_roi_distance",
+            "RepeatRunNum": 0,
+            "Rois": [
+              {
+                "Angle": 88.4573,
+                "CenterX": 0.59109384,
+                "CenterY": 273.22314,
+                "HalfHeight": 19.060781,
+                "HalfWidth": 38.360016,
+                "LockedState": false,
+                "Purpose": "Search",
+                "Shape": "Rectangle"
+              },
+              {
+                "Angle": 88.4573,
+                "CenterX": 0.89392287,
+                "CenterY": 177.76805,
+                "HalfHeight": 55.477386,
+                "HalfWidth": 55.784416,
+                "LockedState": false,
+                "Purpose": "Search",
+                "Shape": "Rectangle"
+              }
+            ],
+            "ThresholdInvert": false,
+            "ThresholdMax": 100.0,
+            "ThresholdMin": 50.0,
+            "TrafoAlgDtcTeach_DeltaAngle": 89.12271,
+            "TrafoAlgDtcTeach_DeltaCol": 367.05582,
+            "TrafoAlgDtcTeach_DeltaRow": 388.7329
+          }
+        ],
+        "DigitalOutputs": {
+          "ExpressionList": [
+            {
+              "InfixExpression": "A&D1",
+              "OutputIndex": 0,
+              "OutputType": "GenericOut"
+            }
+          ],
+          "StandardMode": true
+        },
+        "FocusDetector": {
+          "AlignmentActive": true,
+          "ChannelSingle": "RGB_Gray",
+          "Color": "Single",
+          "DetectorType": "Focus",
+          "Name": "",
+          "RepeatRunNum": 0,
+          "Rois": [
+            {
+              "Angle": 0.0,
+              "CenterX": 347.0588,
+              "CenterY": 243.88235,
+              "HalfHeight": 42.88235,
+              "HalfWidth": 79.411766,
+              "LockedState": false,
+              "Purpose": "Search",
+              "Shape": "Rectangle"
+            }
+          ],
+          "ThresholdInvert": false,
+          "ThresholdMax": 100.0,
+          "ThresholdMin": 50.0,
+          "TrafoAlgDtcTeach_DeltaAngle": 0.0,
+          "TrafoAlgDtcTeach_DeltaCol": 0.0,
+          "TrafoAlgDtcTeach_DeltaRow": 0.0
+        },
+        "General": {
+          "Author": "Author",
+          "Description": "Job",
+          "JobCreated": "2022-07-20T09:20:17",
+          "JobModified": "2025-07-07T09:40:42",
+          "Name": "SHORT CAP ZONE"
+        },
+        "ImageTransmission": {
+          "RamDiskMode": "AllImages",
+          "RecorderMode": "Off"
+        },
+        "Multishot": {
+          "Active": false,
+          "ChannelType": "height",
+          "CurvatureRange": 0,
+          "CurvatureRangeActive": true,
+          "HeightRangeAuto": 1,
+          "HeightRangeMax": 0,
+          "HeightRangeMin": 0,
+          "LocalMean": 0,
+          "LocalMeanActive": true,
+          "OffsetX": 0.0,
+          "Slant": 30
+        },
+        "PreprocessingFilter": {
+          "FilterActive": true,
+          "FilterList": [
+            {
+              "Height": 5,
+              "Type": "Sobel",
+              "Width": 5
+            },
+            {
+              "Height": 2,
+              "Type": "Multiplication_sp",
+              "Width": 1
+            },
+            {
+              "Height": 0,
+              "Type": "Dilation",
+              "Width": 0
+            },
+            {
+              "Height": 0,
+              "Type": "Mean",
+              "Width": 0
+            },
+            {
+              "Height": 0,
+              "Type": "MedianSeparate",
+              "Width": 0
+            }
+          ]
+        },
+        "Resolution": {
+          "Height": 600,
+          "Name": "",
+          "OffsetCol": 4,
+          "OffsetRow": 4,
+          "Scaling": 1,
+          "Width": 800
+        },
+        "Telegram": {
+          "Checksum": false,
+          "DataLength": false,
+          "DetectorResults": false,
+          "DigitalOutputs": false,
+          "EndOfTelegram": "3b",
+          "JobActive": false,
+          "LogicalOutputs": false,
+          "PayloadList": [
+            {
+              "Active": true,
+              "Bitdepth": 8,
+              "Detector": 1,
+              "Factor": 1.0,
+              "MaxResults": -1,
+              "MinLength": 0,
+              "StringItemValue": "",
+              "Type": "DETECTOR",
+              "Value": 0
+            }
+          ],
+          "SelectedFields": false,
+          "Separator": "3b",
+          "Starter": "5a433a",
+          "Status": false,
+          "TotalExecutionTime": false,
+          "Trailer": "3b"
+        },
+        "TimingDigitalOutput": {
+          "ResultDelay": 0,
+          "ResultValidDuration": 0
+        }
+      },
+      {
+        "Acquisition": {
+          "ArrangementFilterActive": false,
+          "ArrangementFilterType": "Rotation180_sp",
+          "FocusValue": 218.61543,
+          "Gain": 1.1,
+          "HighDynamicRange": 0,
+          "IlluminationExternal": 0,
+          "IlluminationInternal": 1,
+          "LedQuadrant": 15,
+          "Shutter": 0.769,
+          "TargetLaser": "Off",
+          "TriggerDelay": 50,
+          "TriggerLockTime": 5,
+          "TriggerMode": "Triggered",
+          "WhitebalanceActive": true,
+          "WhitebalanceBlue": 70.55,
+          "WhitebalanceGreen": 123.54,
+          "WhitebalanceRed": 119.64
+        },
+        "Alignment": {
+          "ChannelSingle": "LAB_Binarization",
+          "ClippingFactor": 2.0,
+          "Color": "Single",
+          "ColorFilter": {
+            "Binarization": {
+              "Invert": [
+                0,
+                0,
+                0,
+                0
+              ],
+              "Max": [
+                100.0,
+                7.96,
+                9.01,
+                0.0
+              ],
+              "Min": [
+                78.89,
+                -12.04,
+                -10.99,
+                0.0
+              ]
+            },
+            "Distance": {
+              "Invert": true,
+              "Max": 255.0,
+              "Normalized": false,
+              "Reference": [
+                50.0,
+                0.0,
+                0.0,
+                0.0
+              ]
+            },
+            "UserDefined": {
+              "UserWeight": [
+                0.0,
+                0.0,
+                0.0,
+                0.0
+              ]
+            }
+          },
+          "DetectorType": "Edge",
+          "Interpolation": false,
+          "NumIterations": 5,
+          "OffsetMode": "none",
+          "Probe": "three",
+          "ProbeAlignment": "shift_and_rotation",
+          "ProbeList": [
+            {
+              "Aggregate": "first",
+              "Bidirectional": true,
+              "EdgeSelect": "first",
+              "EdgeStrengthMin": 1.0,
+              "Sigma": 2.0,
+              "StripesNum": 2,
+              "Transition": "all"
+            },
+            {
+              "Aggregate": "first",
+              "Bidirectional": true,
+              "EdgeSelect": "first",
+              "EdgeStrengthMin": 1.0,
+              "Sigma": 2.0,
+              "StripesNum": 2,
+              "Transition": "all"
+            },
+            {
+              "Aggregate": "first",
+              "Bidirectional": false,
+              "EdgeSelect": "first",
+              "EdgeStrengthMin": 1.0,
+              "Sigma": 2.0,
+              "StripesNum": 1,
+              "Transition": "all"
+            }
+          ],
+          "Rois": [
+            {
+              "Angle": -89.318825,
+              "CenterX": 530.6005,
+              "CenterY": 312.6537,
+              "HalfHeight": 148.41956,
+              "HalfWidth": 77.34618,
+              "LockedState": false,
+              "Purpose": "Search",
+              "Shape": "Rectangle"
+            },
+            {
+              "Angle": -89.698456,
+              "CenterX": 117.25613,
+              "CenterY": 331.0932,
+              "HalfHeight": 8.948071,
+              "HalfWidth": 121.97883,
+              "LockedState": false,
+              "Purpose": "Search",
+              "Shape": "Rectangle"
+            },
+            {
+              "Angle": -179.35216,
+              "CenterX": 556.2419,
+              "CenterY": 305.6515,
+              "HalfHeight": 100.0,
+              "HalfWidth": 209.65073,
+              "LockedState": false,
+              "Purpose": "Search",
+              "Shape": "Rectangle"
+            }
+          ],
+          "TeachValid": true,
+          "ThresholdInvert": false,
+          "ThresholdMax": 100.0,
+          "ThresholdMin": 0.0,
+          "TrafoAlgDtcTeach_DeltaAngle": -88.176,
+          "TrafoAlgDtcTeach_DeltaCol": 323.96887,
+          "TrafoAlgDtcTeach_DeltaRow": 323.57718,
+          "TrafoAlgLast_DeltaAngle": -88.850426,
+          "TrafoAlgLast_DeltaCol": 479.02878,
+          "TrafoAlgLast_DeltaRow": 323.00818,
+          "TrafoAlgTeach_DeltaAngle": -88.176,
+          "TrafoAlgTeach_DeltaCol": 659.5132,
+          "TrafoAlgTeach_DeltaRow": 312.8916
+        },
+        "Archiving": {
+          "BaseFileName": "<COUNTER>",
+          "DomainName": "",
+          "FileNumMax": 10,
+          "FolderNameFail": "",
+          "FolderNamePass": "",
+          "ImageCompressionType": "None",
+          "Password": "",
+          "ResultImageFile": "All",
+          "ResultNumericFile": "All",
+          "ServerIpAddress": "0.0.0.0",
+          "SharedFolderName": "",
+          "StorageMode": "Cyclic",
+          "TransferProtocolType": "Off",
+          "UserName": ""
+        },
+        "CycleTimeRepeat": {
+          "CycleTimeMax": 0,
+          "ProcessingTimePerImageMax": 0,
+          "RepeatImagesNumMax": 1,
+          "ShutterFactors": [
+            1.0
+          ],
+          "ShutterVariationActive": false
+        },
+        "Detectors": [
+          {
+            "AlignmentActive": true,
+            "ChannelColorList": [
+              true,
+              true,
+              true,
+              false
+            ],
+            "ChannelSingle": "Unspecified",
+            "Color": "RGB",
+            "ColorDistance": 29.94,
+            "ColorDistanceActive": true,
+            "ColorList": [
+              {
+                "ColorName": "Invalid",
+                "ColorValues": [
+                  108.31,
+                  110.81,
+                  109.09,
+                  0.0
+                ]
+              },
+              {
+                "ColorName": "Blue",
+                "ColorValues": [
+                  17.33,
+                  24.02,
+                  61.0,
+                  0.0
+                ]
+              },
+              {
+                "ColorName": "Light Blue",
+                "ColorValues": [
+                  90.86,
+                  190.83,
+                  255.0,
+                  0.0
+                ]
+              },
+              {
+                "ColorName": "Red",
+                "ColorValues": [
+                  158.0,
+                  49.32,
+                  41.24,
+                  0.0
+                ]
+              },
+              {
+                "ColorName": "Gold",
+                "ColorValues": [
+                  255.0,
+                  227.54,
+                  142.6,
+                  0.0
+                ]
+              },
+              {
+                "ColorName": "Green",
+                "ColorValues": [
+                  41.74,
+                  95.76,
+                  91.15,
+                  0.0
+                ]
+              },
+              {
+                "ColorName": "Yellow",
+                "ColorValues": [
+                  255.0,
+                  254.77,
+                  164.52,
+                  0.0
+                ]
+              },
+              {
+                "ColorName": "Pink",
+                "ColorValues": [
+                  255.0,
+                  208.68,
+                  193.65,
+                  0.0
+                ]
+              },
+              {
+                "ColorName": "Purple",
+                "ColorValues": [
+                  115.14,
+                  54.11,
+                  97.29,
+                  0.0
+                ]
+              },
+              {
+                "ColorName": "Gray",
+                "ColorValues": [
+                  79.16,
+                  85.91,
+                  90.62,
+                  0.0
+                ]
+              },
+              {
+                "ColorName": "Dark Green",
+                "ColorValues": [
+                  42.81,
+                  98.0,
+                  93.53,
+                  0.0
+                ]
+              },
+              {
+                "ColorName": "Teja",
+                "ColorValues": [
+                  230.17,
+                  92.77,
+                  53.64,
+                  0.0
+                ]
+              },
+              {
+                "ColorName": "Ligth Green",
+                "ColorValues": [
+                  201.7,
+                  254.56,
+                  244.07,
+                  0.0
+                ]
+              },
+              {
+                "ColorName": "Yellow Purple",
+                "ColorValues": [
+                  185.08,
+                  147.19,
+                  118.39,
+                  0.0
+                ]
+              },
+              {
+                "ColorName": "Reserved 1",
+                "ColorValues": [
+                  255.0,
+                  255.0,
+                  255.0,
+                  0.0
+                ]
+              },
+              {
+                "ColorName": "Reserved 2",
+                "ColorValues": [
+                  14.12,
+                  15.1,
+                  18.21,
+                  0.0
+                ]
+              }
+            ],
+            "DetectorType": "ColorList",
+            "Name": "CAP COLOR",
+            "RepeatRunNum": 0,
+            "Rois": [
+              {
+                "Angle": 88.69693,
+                "CenterX": 4.7047787,
+                "CenterY": 31.335472,
+                "HalfHeight": 16.02244,
+                "HalfWidth": 5.8254123,
+                "LockedState": false,
+                "Purpose": "Search",
+                "Shape": "Rectangle"
+              }
+            ],
+            "ThresholdInvert": false,
+            "ThresholdMax": 100.0,
+            "ThresholdMin": 50.0,
+            "TrafoAlgDtcTeach_DeltaAngle": 179.75162,
+            "TrafoAlgDtcTeach_DeltaCol": 529.40985,
+            "TrafoAlgDtcTeach_DeltaRow": 275.93414
+          }
+        ],
+        "DigitalOutputs": {
+          "ExpressionList": [
+            {
+              "InfixExpression": "A",
+              "OutputIndex": 0,
+              "OutputType": "GenericOut"
+            }
+          ],
+          "StandardMode": true
+        },
+        "FocusDetector": {
+          "AlignmentActive": true,
+          "ChannelSingle": "RGB_Gray",
+          "Color": "Single",
+          "DetectorType": "Focus",
+          "Name": "",
+          "RepeatRunNum": 0,
+          "Rois": [
+            {
+              "Angle": 0.0,
+              "CenterX": 546.96246,
+              "CenterY": 296.0902,
+              "HalfHeight": 22.530436,
+              "HalfWidth": 34.416843,
+              "LockedState": false,
+              "Purpose": "Search",
+              "Shape": "Rectangle"
+            }
+          ],
+          "ThresholdInvert": false,
+          "ThresholdMax": 100.0,
+          "ThresholdMin": 50.0,
+          "TrafoAlgDtcTeach_DeltaAngle": 0.0,
+          "TrafoAlgDtcTeach_DeltaCol": 0.0,
+          "TrafoAlgDtcTeach_DeltaRow": 0.0
+        },
+        "General": {
+          "Author": "Author",
+          "Description": "Job",
+          "JobCreated": "2025-02-12T17:21:33",
+          "JobModified": "2025-03-14T12:52:09",
+          "Name": "CAP COLOR"
+        },
+        "ImageTransmission": {
+          "RamDiskMode": "AllImages",
+          "RecorderMode": "AllImages"
+        },
+        "Multishot": {
+          "Active": false,
+          "ChannelType": "height",
+          "CurvatureRange": 0,
+          "CurvatureRangeActive": true,
+          "HeightRangeAuto": 1,
+          "HeightRangeMax": 0,
+          "HeightRangeMin": 0,
+          "LocalMean": 0,
+          "LocalMeanActive": true,
+          "OffsetX": 0.0,
+          "Slant": 30
+        },
+        "PreprocessingFilter": {
+          "FilterActive": false,
+          "FilterList": [
+            {
+              "Height": 0,
+              "Type": "Gaussian",
+              "Width": 0
+            },
+            {
+              "Height": 0,
+              "Type": "Erosion",
+              "Width": 0
+            },
+            {
+              "Height": 0,
+              "Type": "Dilation",
+              "Width": 0
+            },
+            {
+              "Height": 0,
+              "Type": "Mean",
+              "Width": 0
+            },
+            {
+              "Height": 0,
+              "Type": "MedianSeparate",
+              "Width": 0
+            }
+          ]
+        },
+        "Resolution": {
+          "Height": 600,
+          "Name": "",
+          "OffsetCol": 4,
+          "OffsetRow": 4,
+          "Scaling": 1,
+          "Width": 800
+        },
+        "Telegram": {
+          "Checksum": false,
+          "DataLength": false,
+          "DetectorResults": false,
+          "DigitalOutputs": false,
+          "EndOfTelegram": "3b",
+          "JobActive": false,
+          "LogicalOutputs": false,
+          "PayloadList": [
+            {
+              "Active": true,
+              "Bitdepth": 32,
+              "Detector": 1,
+              "Factor": 1.0,
+              "MaxResults": -1,
+              "MinLength": 1,
+              "StringItemValue": "",
+              "Type": "DETECTOR",
+              "Value": 3
+            },
+            {
+              "Active": true,
+              "Bitdepth": 32,
+              "Detector": 1,
+              "Factor": 1000.0,
+              "MaxResults": -1,
+              "MinLength": 1,
+              "StringItemValue": "",
+              "Type": "DETECTOR",
+              "Value": 1
+            },
+            {
+              "Active": true,
+              "Bitdepth": 32,
+              "Detector": 1,
+              "Factor": 1000.0,
+              "MaxResults": -1,
+              "MinLength": 1,
+              "StringItemValue": "",
+              "Type": "DETECTOR",
+              "Value": 4
+            },
+            {
+              "Active": true,
+              "Bitdepth": 32,
+              "Detector": 1,
+              "Factor": 1000.0,
+              "MaxResults": -1,
+              "MinLength": 1,
+              "StringItemValue": "",
+              "Type": "DETECTOR",
+              "Value": 5
+            },
+            {
+              "Active": true,
+              "Bitdepth": 32,
+              "Detector": 1,
+              "Factor": 1000.0,
+              "MaxResults": -1,
+              "MinLength": 1,
+              "StringItemValue": "",
+              "Type": "DETECTOR",
+              "Value": 6
+            },
+            {
+              "Active": true,
+              "Bitdepth": 32,
+              "Detector": 1,
+              "Factor": 1000.0,
+              "MaxResults": -1,
+              "MinLength": 1,
+              "StringItemValue": "",
+              "Type": "DETECTOR",
+              "Value": 7
+            }
+          ],
+          "SelectedFields": false,
+          "Separator": "3b",
+          "Starter": "433a",
+          "Status": false,
+          "TotalExecutionTime": false,
+          "Trailer": "3b"
+        },
+        "TimingDigitalOutput": {
+          "ResultDelay": 0,
+          "ResultValidDuration": 0
+        }
+      },
+      {
+        "Acquisition": {
+          "ArrangementFilterActive": false,
+          "ArrangementFilterType": "Rotation180_sp",
+          "FocusValue": 219.64171,
+          "Gain": 1.0,
+          "HighDynamicRange": 0,
+          "IlluminationExternal": 2,
+          "IlluminationExternalPins": [
+            "IO9_RD"
+          ],
+          "IlluminationInternal": 0,
+          "LedQuadrant": 15,
+          "Shutter": 0.215,
+          "TargetLaser": "Off",
+          "TriggerDelay": 40,
+          "TriggerLockTime": 0,
+          "TriggerMode": "FreeRun",
+          "WhitebalanceActive": true,
+          "WhitebalanceBlue": 36.0,
+          "WhitebalanceGreen": 62.0,
+          "WhitebalanceRed": 53.0
+        },
+        "Alignment": {
+          "ChannelSingle": "RGB _Binarization",
+          "ClippingFactor": 2.0,
+          "Color": "Single",
+          "ColorFilter": {
+            "Binarization": {
+              "Invert": [
+                0,
+                0,
+                0,
+                0
+              ],
+              "Max": [
+                100.0,
+                100.0,
+                100.0,
+                0.0
+              ],
+              "Min": [
+                0.0,
+                0.0,
+                0.0,
+                0.0
+              ]
+            },
+            "Distance": {
+              "Invert": true,
+              "Max": 255.0,
+              "Normalized": false,
+              "Reference": [
+                100.0,
+                100.0,
+                100.0,
+                0.0
+              ]
+            },
+            "UserDefined": {
+              "UserWeight": [
+                1.0,
+                1.0,
+                1.0,
+                0.0
+              ]
+            }
+          },
+          "DetectorType": "Edge",
+          "Interpolation": false,
+          "NumIterations": 5,
+          "OffsetMode": "none",
+          "Probe": "three",
+          "ProbeAlignment": "shift_and_rotation",
+          "ProbeList": [
+            {
+              "Aggregate": "last",
+              "Bidirectional": true,
+              "EdgeSelect": "first",
+              "EdgeStrengthMin": 11.0,
+              "Sigma": 3.0,
+              "StripesNum": 6,
+              "Transition": "negative"
+            },
+            {
+              "Aggregate": "last",
+              "Bidirectional": true,
+              "EdgeSelect": "first",
+              "EdgeStrengthMin": 11.0,
+              "Sigma": 3.0,
+              "StripesNum": 6,
+              "Transition": "negative"
+            },
+            {
+              "Aggregate": "first",
+              "Bidirectional": true,
+              "EdgeSelect": "first",
+              "EdgeStrengthMin": 5.0,
+              "Sigma": 3.0,
+              "StripesNum": 2,
+              "Transition": "negative"
+            }
+          ],
+          "Rois": [
+            {
+              "Angle": 89.99999,
+              "CenterX": 346.43216,
+              "CenterY": 318.20023,
+              "HalfHeight": 34.673367,
+              "HalfWidth": 78.01185,
+              "LockedState": false,
+              "Purpose": "Search",
+              "Shape": "Rectangle"
+            },
+            {
+              "Angle": 89.93533,
+              "CenterX": 24.588932,
+              "CenterY": 328.96002,
+              "HalfHeight": 14.098352,
+              "HalfWidth": 138.62119,
+              "LockedState": false,
+              "Purpose": "Search",
+              "Shape": "Rectangle"
+            },
+            {
+              "Angle": -179.66945,
+              "CenterX": 369.93857,
+              "CenterY": 338.82034,
+              "HalfHeight": 14.207668,
+              "HalfWidth": 355.9659,
+              "LockedState": false,
+              "Purpose": "Search",
+              "Shape": "Rectangle"
+            }
+          ],
+          "TeachValid": true,
+          "ThresholdInvert": false,
+          "ThresholdMax": 100.0,
+          "ThresholdMin": 0.0,
+          "TrafoAlgDtcTeach_DeltaAngle": 90.69638,
+          "TrafoAlgDtcTeach_DeltaCol": 185.499,
+          "TrafoAlgDtcTeach_DeltaRow": 339.45392,
+          "TrafoAlgLast_DeltaAngle": 90.897964,
+          "TrafoAlgLast_DeltaCol": 251.89664,
+          "TrafoAlgLast_DeltaRow": 325.4001,
+          "TrafoAlgTeach_DeltaAngle": 90.69638,
+          "TrafoAlgTeach_DeltaCol": 242.97302,
+          "TrafoAlgTeach_DeltaRow": 338.75534
+        },
+        "Archiving": {
+          "BaseFileName": "<COUNTER>",
+          "DomainName": "",
+          "FileNumMax": 10,
+          "FolderNameFail": "",
+          "FolderNamePass": "",
+          "ImageCompressionType": "None",
+          "Password": "",
+          "ResultImageFile": "All",
+          "ResultNumericFile": "All",
+          "ServerIpAddress": "...",
+          "SharedFolderName": "",
+          "StorageMode": "Cyclic",
+          "TransferProtocolType": "Off",
+          "UserName": ""
+        },
+        "Calibration": {
+          "ImageX": [
+            18.773973,
+            483.32562
+          ],
+          "ImageY": [
+            332.48602,
+            331.99313
+          ],
+          "PlatePointsArea": 0.0,
+          "ScalingFactor": 0.0001614459,
+          "TiltsRotationsError": 0,
+          "Type": "Scaling",
+          "Unit": "mm",
+          "Valid": true,
+          "WorldX": [
+            0.0,
+            75.0
+          ],
+          "WorldY": [
+            0.0,
+            0.0
+          ]
+        },
+        "CycleTimeRepeat": {
+          "CycleTimeMax": 120,
+          "ProcessingTimePerImageMax": 0,
+          "RepeatImagesNumMax": 1,
+          "ShutterFactors": [
+            1.0
+          ],
+          "ShutterVariationActive": false
+        },
+        "Detectors": [
+          {
+            "AlignmentActive": false,
+            "ChannelSingle": "HSV_Binarization",
+            "Color": "Single",
+            "ColorFilter": {
+              "Binarization": {
+                "Invert": [
+                  0,
+                  0,
+                  0,
+                  0
+                ],
+                "Max": [
+                  10.0,
+                  10.0,
+                  10.0,
+                  0.0
+                ],
+                "Min": [
+                  0.0,
+                  0.0,
+                  0.0,
+                  0.0
+                ]
+              },
+              "Distance": {
+                "Invert": true,
+                "Max": 255.0,
+                "Normalized": false,
+                "Reference": [
+                  0.0,
+                  0.0,
+                  0.0,
+                  0.0
+                ]
+              },
+              "UserDefined": {
+                "UserWeight": [
+                  0.0,
+                  0.0,
+                  0.0,
+                  0.0
+                ]
+              }
+            },
+            "DetectorType": "Caliper",
+            "DistanceInvert": false,
+            "DistanceMax": 24.0,
+            "DistanceMin": 23.0,
+            "DistanceMode": "maximum",
+            "Interpolation": true,
+            "Name": "X_POS",
+            "ProbeList": [
+              {
+                "EdgeStrength": 47.46,
+                "SearchStripes": 1,
+                "Smoothing": 5.0,
+                "Transition": "negative"
+              },
+              {
+                "EdgeStrength": 47.46,
+                "SearchStripes": 1,
+                "Smoothing": 5.0,
+                "Transition": "negative"
+              }
+            ],
+            "ProbeType": "one_roi_distance",
+            "RepeatRunNum": 0,
+            "Rois": [
+              {
+                "Angle": 0.0052596712,
+                "CenterX": 399.95438,
+                "CenterY": 299.86526,
+                "HalfHeight": 100.0,
+                "HalfWidth": 200.0,
+                "LockedState": false,
+                "Purpose": "Search",
+                "Shape": "Rectangle"
+              },
+              {
+                "Angle": 90.24035,
+                "CenterX": 31.785662,
+                "CenterY": 398.34247,
+                "HalfHeight": 10.965769,
+                "HalfWidth": 199.80386,
+                "LockedState": false,
+                "Purpose": "Search",
+                "Shape": "Rectangle"
+              }
+            ],
+            "ThresholdInvert": false,
+            "ThresholdMax": 100.0,
+            "ThresholdMin": 0.0,
+            "TrafoAlgDtcTeach_DeltaAngle": 0.0,
+            "TrafoAlgDtcTeach_DeltaCol": 0.0,
+            "TrafoAlgDtcTeach_DeltaRow": 0.0
+          },
+          {
+            "AlignmentActive": false,
+            "ChannelSingle": "RGB _Binarization",
+            "Color": "Single",
+            "ColorFilter": {
+              "Binarization": {
+                "Invert": [
+                  0,
+                  0,
+                  0,
+                  0
+                ],
+                "Max": [
+                  10.0,
+                  10.0,
+                  10.0,
+                  0.0
+                ],
+                "Min": [
+                  0.0,
+                  0.0,
+                  0.0,
+                  0.0
+                ]
+              },
+              "Distance": {
+                "Invert": true,
+                "Max": 255.0,
+                "Normalized": false,
+                "Reference": [
+                  3.0,
+                  0.0,
+                  2.0,
+                  0.0
+                ]
+              },
+              "UserDefined": {
+                "UserWeight": [
+                  1.0,
+                  1.0,
+                  1.0,
+                  0.0
+                ]
+              }
+            },
+            "DetectorType": "Caliper",
+            "DistanceInvert": false,
+            "DistanceMax": 82.3,
+            "DistanceMin": 82.0,
+            "DistanceMode": "maximum",
+            "Interpolation": true,
+            "Name": "Y_POS",
+            "ProbeList": [
+              {
+                "EdgeStrength": 21.0,
+                "SearchStripes": 4,
+                "Smoothing": 6.37,
+                "Transition": "negative"
+              },
+              {
+                "EdgeStrength": 21.0,
+                "SearchStripes": 4,
+                "Smoothing": 6.37,
+                "Transition": "negative"
+              }
+            ],
+            "ProbeType": "one_roi_distance",
+            "RepeatRunNum": 0,
+            "Rois": [
+              {
+                "Angle": 0.05424884,
+                "CenterX": 400.2997,
+                "CenterY": 299.1747,
+                "HalfHeight": 100.0,
+                "HalfWidth": 200.0,
+                "LockedState": false,
+                "Purpose": "Search",
+                "Shape": "Rectangle"
+              },
+              {
+                "Angle": -179.67569,
+                "CenterX": 498.6287,
+                "CenterY": 332.92468,
+                "HalfHeight": 100.0,
+                "HalfWidth": 299.25076,
+                "LockedState": false,
+                "Purpose": "Search",
+                "Shape": "Rectangle"
+              }
+            ],
+            "ThresholdInvert": false,
+            "ThresholdMax": 100.0,
+            "ThresholdMin": 0.0,
+            "TrafoAlgDtcTeach_DeltaAngle": 0.0,
+            "TrafoAlgDtcTeach_DeltaCol": 0.0,
+            "TrafoAlgDtcTeach_DeltaRow": 0.0
+          },
+          {
+            "AlignmentActive": true,
+            "ChannelSingle": "RGB _Binarization",
+            "Color": "Single",
+            "ColorFilter": {
+              "Binarization": {
+                "Invert": [
+                  0,
+                  0,
+                  0,
+                  0
+                ],
+                "Max": [
+                  100.0,
+                  100.0,
+                  100.0,
+                  0.0
+                ],
+                "Min": [
+                  0.0,
+                  0.0,
+                  0.0,
+                  0.0
+                ]
+              },
+              "Distance": {
+                "Invert": true,
+                "Max": 255.0,
+                "Normalized": false,
+                "Reference": [
+                  100.0,
+                  100.0,
+                  100.0,
+                  0.0
+                ]
+              },
+              "UserDefined": {
+                "UserWeight": [
+                  1.0,
+                  1.0,
+                  1.0,
+                  0.0
+                ]
+              }
+            },
+            "DetectorType": "Caliper",
+            "DistanceInvert": false,
+            "DistanceMax": 0.0,
+            "DistanceMin": -1.0,
+            "DistanceMode": "minimum",
+            "Interpolation": true,
+            "Name": "ZOOM_POS",
+            "ProbeList": [
+              {
+                "EdgeStrength": 8.0,
+                "SearchStripes": 1,
+                "Smoothing": 0.0,
+                "Transition": "negative"
+              },
+              {
+                "EdgeStrength": 8.0,
+                "SearchStripes": 1,
+                "Smoothing": 0.0,
+                "Transition": "all"
+              }
+            ],
+            "ProbeType": "two_roi_distance",
+            "RepeatRunNum": 0,
+            "Rois": [
+              {
+                "Angle": 88.454544,
+                "CenterX": 0.57943505,
+                "CenterY": 275.52063,
+                "HalfHeight": 18.38812,
+                "HalfWidth": 39.242588,
+                "LockedState": false,
+                "Purpose": "Search",
+                "Shape": "Rectangle"
+              },
+              {
+                "Angle": 88.454544,
+                "CenterX": -4.3406487,
+                "CenterY": 231.34955,
+                "HalfHeight": 81.62442,
+                "HalfWidth": 3.2805223,
+                "LockedState": false,
+                "Purpose": "Search",
+                "Shape": "Rectangle"
+              }
+            ],
+            "ThresholdInvert": false,
+            "ThresholdMax": 100.0,
+            "ThresholdMin": 50.0,
+            "TrafoAlgDtcTeach_DeltaAngle": 89.12271,
+            "TrafoAlgDtcTeach_DeltaCol": 367.05582,
+            "TrafoAlgDtcTeach_DeltaRow": 388.7329
+          },
+          {
+            "AlignmentActive": false,
+            "ChannelSingle": "RGB _Binarization",
+            "Color": "Single",
+            "ColorFilter": {
+              "Binarization": {
+                "Invert": [
+                  0,
+                  0,
+                  0,
+                  0
+                ],
+                "Max": [
+                  100.0,
+                  100.0,
+                  100.0,
+                  0.0
+                ],
+                "Min": [
+                  0.0,
+                  0.0,
+                  0.0,
+                  0.0
+                ]
+              },
+              "Distance": {
+                "Invert": true,
+                "Max": 255.0,
+                "Normalized": false,
+                "Reference": [
+                  100.0,
+                  100.0,
+                  100.0,
+                  0.0
+                ]
+              },
+              "UserDefined": {
+                "UserWeight": [
+                  1.0,
+                  1.0,
+                  1.0,
+                  0.0
+                ]
+              }
+            },
+            "DetectorType": "Caliper",
+            "DistanceInvert": false,
+            "DistanceMax": 75.3,
+            "DistanceMin": 75.2,
+            "DistanceMode": "maximum",
+            "Interpolation": true,
+            "Name": "SMALL TUBE HEIGHT",
+            "ProbeList": [
+              {
+                "EdgeStrength": 11.0,
+                "SearchStripes": 3,
+                "Smoothing": 3.0,
+                "Transition": "all"
+              },
+              {
+                "EdgeStrength": 11.0,
+                "SearchStripes": 3,
+                "Smoothing": 3.0,
+                "Transition": "all"
+              }
+            ],
+            "ProbeType": "two_roi_width",
+            "RepeatRunNum": 0,
+            "Rois": [
+              {
+                "Angle": 0.0,
+                "CenterX": 108.799995,
+                "CenterY": 331.0,
+                "HalfHeight": 10.599994,
+                "HalfWidth": 100.0,
+                "LockedState": false,
+                "Purpose": "Search",
+                "Shape": "Rectangle"
+              },
+              {
+                "Angle": 180.0,
+                "CenterX": 498.4,
+                "CenterY": 285.6,
+                "HalfHeight": 12.0,
+                "HalfWidth": 46.400005,
+                "LockedState": false,
+                "Purpose": "Search",
+                "Shape": "Rectangle"
+              }
+            ],
+            "ThresholdInvert": false,
+            "ThresholdMax": 100.0,
+            "ThresholdMin": 50.0,
+            "TrafoAlgDtcTeach_DeltaAngle": 89.12271,
+            "TrafoAlgDtcTeach_DeltaCol": 367.05582,
+            "TrafoAlgDtcTeach_DeltaRow": 388.7329
+          }
+        ],
+        "DigitalOutputs": {
+          "ExpressionList": [
+            {
+              "InfixExpression": "A&D2&D3&D4",
+              "OutputIndex": 0,
+              "OutputType": "GenericOut"
+            }
+          ],
+          "StandardMode": true
+        },
+        "FocusDetector": {
+          "AlignmentActive": true,
+          "ChannelSingle": "RGB_Gray",
+          "Color": "Single",
+          "DetectorType": "Focus",
+          "Name": "",
+          "RepeatRunNum": 0,
+          "Rois": [
+            {
+              "Angle": 0.0,
+              "CenterX": 347.0588,
+              "CenterY": 243.88235,
+              "HalfHeight": 42.88235,
+              "HalfWidth": 79.411766,
+              "LockedState": false,
+              "Purpose": "Search",
+              "Shape": "Rectangle"
+            }
+          ],
+          "ThresholdInvert": false,
+          "ThresholdMax": 100.0,
+          "ThresholdMin": 50.0,
+          "TrafoAlgDtcTeach_DeltaAngle": 0.0,
+          "TrafoAlgDtcTeach_DeltaCol": 0.0,
+          "TrafoAlgDtcTeach_DeltaRow": 0.0
+        },
+        "General": {
+          "Author": "Author",
+          "Description": "Job",
+          "JobCreated": "2025-06-13T12:25:59",
+          "JobModified": "2025-07-07T09:57:55",
+          "Name": "CALIBRATION2"
+        },
+        "ImageTransmission": {
+          "RamDiskMode": "AllImages",
+          "RecorderMode": "Off"
+        },
+        "Multishot": {
+          "Active": false,
+          "ChannelType": "height",
+          "CurvatureRange": 0,
+          "CurvatureRangeActive": true,
+          "HeightRangeAuto": 1,
+          "HeightRangeMax": 0,
+          "HeightRangeMin": 0,
+          "LocalMean": 0,
+          "LocalMeanActive": true,
+          "OffsetX": 0.0,
+          "Slant": 30
+        },
+        "PreprocessingFilter": {
+          "FilterActive": true,
+          "FilterList": [
+            {
+              "Height": 5,
+              "Type": "Sobel",
+              "Width": 5
+            },
+            {
+              "Height": 2,
+              "Type": "Multiplication_sp",
+              "Width": 1
+            },
+            {
+              "Height": 0,
+              "Type": "Dilation",
+              "Width": 0
+            },
+            {
+              "Height": 0,
+              "Type": "Mean",
+              "Width": 0
+            },
+            {
+              "Height": 0,
+              "Type": "MedianSeparate",
+              "Width": 0
+            }
+          ]
+        },
+        "Resolution": {
+          "Height": 600,
+          "Name": "",
+          "OffsetCol": 4,
+          "OffsetRow": 4,
+          "Scaling": 1,
+          "Width": 800
+        },
+        "Telegram": {
+          "Checksum": false,
+          "DataLength": false,
+          "DetectorResults": false,
+          "DigitalOutputs": false,
+          "EndOfTelegram": "3b",
+          "JobActive": false,
+          "LogicalOutputs": false,
+          "PayloadList": null,
+          "SelectedFields": false,
+          "Separator": "3b",
+          "Starter": "5a433a",
+          "Status": false,
+          "TotalExecutionTime": false,
+          "Trailer": "3b"
+        },
+        "TimingDigitalOutput": {
+          "ResultDelay": 0,
+          "ResultValidDuration": 0
+        }
+      }
+    ],
+    "SensorType": 1,
+    "Settings": {
+      "Interfaces": {
+        "DigitalIoPins": [
+          {
+            "DefaultState": "Low",
+            "Function": 128,
+            "Pin": "IN3_WH"
+          },
+          {
+            "DefaultState": "Low",
+            "Function": 34,
+            "Pin": "OUT4_GN_Ready"
+          },
+          {
+            "DefaultState": "Low",
+            "Function": 128,
+            "Pin": "IO5_PK"
+          },
+          {
+            "DefaultState": "Low",
+            "Function": 128,
+            "Pin": "IO6_YE"
+          },
+          {
+            "DefaultState": "Low",
+            "Function": 128,
+            "Pin": "IO7_BK"
+          },
+          {
+            "DefaultState": "Low",
+            "Function": 128,
+            "Pin": "IO8_GY"
+          },
+          {
+            "DefaultState": "Low",
+            "Function": 64,
+            "Pin": "IO9_RD"
+          },
+          {
+            "DefaultState": "Low",
+            "Function": 128,
+            "Pin": "IN10_VT"
+          },
+          {
+            "DefaultState": "Low",
+            "Function": 35,
+            "Pin": "OUT11_GYPK_Valid"
+          },
+          {
+            "DefaultState": "Low",
+            "Function": 128,
+            "Pin": "IO12_RDBU_A"
+          }
+        ],
+        "DigitalIoType": "PNP",
+        "EtherNetIpActive": false,
+        "EthernetActive": true,
+        "EthernetPortIn": 2006,
+        "EthernetPortOut": 2005,
+        "LogicalOutputs": 0,
+        "ProfinetActive": false,
+        "TelegramProtocol": "ASCII",
+        "ViewActive": false,
+        "ViewImageCompressionType": "JPEG60",
+        "ViewImageTransmission": "Enabled",
+        "WebServerActive": true,
+        "WebServerImageCompressionType": "JPEG60"
+      },
+      "Protection": {
+        "AdditionalInfo": "",
+        "Password": ""
+      },
+      "SaveSerializedModel": [
+        {
+          "DetectorType": "PatternMatching",
+          "Save": true
+        },
+        {
+          "DetectorType": "Contour",
+          "Save": true
+        },
+        {
+          "DetectorType": "Contour3D",
+          "Save": true
+        }
+      ],
+      "Signalling": {
+        "OutputSignaling": "OnResults",
+        "ResetStatistics": "OnEachJobChange",
+        "ResultDelayType": "NoResults"
+      }
+    },
+    "Version": "2.6"
+  }
+}
